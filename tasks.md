@@ -25,6 +25,7 @@
     - [x] Macrolevel
       - Object retrieval
         - Information (eg secrets, dirt, manuals, etc)
+          - Includes recording audio, video, etc.
         - Data containing devices
         - Chips
         - Tools that can be leveraged later
@@ -126,7 +127,11 @@ These choices put you in different positions wrt ability to access certain infor
 
 ALSO: There should also be very real consequences for these moves, not just in the sense mentioned above, of having to MAKE the move from corporate to non-corporate or whatever, but also in the sense that being corporate lets you achieve certain things much more easily, or gives you a chance to meet certain people, or whatever, that being non-corporate doesn't. Same for the others. The consequences should be material not just the "corp" vs "not" label.
 
-AND when the engin comes around and the aliens make first contact, who you're with affects which rebel faction you end up with, or if you're with a collaborator faction, or what.
+AND when the ending comes around and the aliens make first contact, who you're with affects which rebel faction you end up with, or if you're with a collaborator faction, or what.
+
+Paths vary: corporate path has lots more pentesting missions, while underground paths have more dirt digging, etc. Corp paths have upsides and downsides -- upsides are more easy access to lots of corporate facilities, downsides are more morally questionable things you have to accept and let slide (b/c revealing them gets you fired).
+
+Different paths all must be able to intersect w/ main story beats -- how depends on the beat, and there are different options, routes, easinesses, etc.
 
 ## Task Rambles
 
