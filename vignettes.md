@@ -35,3 +35,66 @@ Means: Getting access to the police station by SE, stealth, combat, tunnels, etc
 3. Following the transmission to its local source in Highland Park, a secret FEMA camp, which leads to...
 4. Visiting Heng Sha to find Van Bruggen to find out who hired him, which leads to...
 5. Breaking into Tai Yong, to get access to Zhao Yun Ru
+
+## Deus Ex 1 Plot Analysis
+
+- 1st Mission: Liberty Island
+- 2nd Mission: Battery Park, Hell's Kitchen, and Warehouse District
+- 3rd Mission: Brooklyn Bridge Station, Mole Tunnels, and LaGuardia Airport
+- 4th Mission: Hell's Kitchen (Second Visit) and NSF Headquarters
+- 5th Mission: Secret MJ12 Facility and UNATCO Headquarters
+- 6th Mission: Hong Kong
+- 7th Mission: Hell's Kitchen (Third Visit)
+- 8th Mission: Brooklyn Naval Shipyards and Lower East Side Cemetery
+- 9th Mission: Paris Streets and Chateau DuClare
+- 10th Mission: Knights Templar Cathedral and Morgan Everett's Home
+- 11th Mission: Vandenberg Air Force Base
+- 12th Mission: Sub Base, Ocean Lab, and Missile Silo
+- 13th Mission: Area 51
+
+### Part 1
+
+In Part 1, you're working for UNATCO. Most of the missions here are driven by UNATCO's current operations in NYC in response to the NSF stealing a shipment of Ambrosia.
+
+- 1st Mission: Liberty Island
+  - Goal: Locate and neutralize the NSF threat in the Statue of Liberty. The assumption until this point is that they have the stolen Ambrosia here still, and you're trying to retrieve it.
+- 2nd Mission: Battery Park, Hell's Kitchen, and Warehouse District
+  - Battery Park:
+    - Goal: Locate the Ambrosia; free the subway hostages.
+  - Hell's Kitchen/Warehouse District
+    - Goal: Locate the NSF headquarters and shut down the generator powering their EMP field in order to allow a raid on the HQ.
+    - Sidequest: Free Ford Schick from the secret MJ12 base underground.
+- 3rd Mission: Brooklyn Bridge Station, Mole Tunnels, and LaGuardia Airport
+  - Goal: Investigate the underground hideout of the NSF, locate the helibase and find missing Ambrosia, find Lebedev and kill him
+- 4th Mission: Hell's Kitchen (Second Visit) and NSF Headquarters
+  - Goal: Send the signal to Silhouette, possiby save Paul.
+
+### Part 2
+
+In Part 2, you're working against UNATCO/MJ12/Bob Page, with most of the focus being on the Grey Death
+
+- 5th Mission: Secret MJ12 Facility and UNATCO Headquarters
+  - Goal: Escape the MJ12 base/UNATCO HQ
+- 6th Mission: Hong Kong
+  - Goal: Win the trust of Tracer Tong to save you and your brother, destroy the VersaLife universal constructor that's manufacturing the Grey Death, get info on where the shipment of the Grey Death is headed
+- 7th Mission: Hell's Kitchen (Third Visit)
+  - Goal: Contact Stanton Dowd who can tell you where the Grey Death shipment is located
+- 8th Mission: Brooklyn Naval Shipyards and Lower East Side Cemetery
+  - Naval Yards:
+    - Goal: Destroy the ship and the shipment of the Grey Death
+  - Cemetary:
+    - Goal: Talk to Dowd, get info on the next clues about the Grey Death, escape to Paris
+- 9th Mission: Paris Streets and Chateau DuClare
+  - Goal: Contact Nicolette DuClare and find out info on where Morgan Everette is, help Everette get necessary info to find a cure to the Grey Death
+  - Sidequest: Contact and assist Silhouette
+- 10th Mission: Knights Templar Cathedral and Morgan Everett's Home
+  - Goal: Help Everette get access to the Templar computer needed to cure the Grey Death
+- 11th Mission: Vandenberg Air Force Base
+  - Goal: Free the base and find out from the scientists of X-51 what they need to get their universal constructor up and running so they can manufacture the cure to the Grey Death
+- 12th Mission: Sub Base, Ocean Lab, and Missile Silo
+  - Sub Base, Ocean Lab:
+    - Goal: Get schematics necessary to finish the X-51 universal constructor
+  - Missile Silo:
+    - Goal: Stop launch of missile targtting X-51, redirect missile to Area 51
+- 13th Mission: Area 51
+  - Goal: Confront and defeat Bob Page
