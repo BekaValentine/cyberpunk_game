@@ -38,6 +38,10 @@ Means: Getting access to the police station by SE, stealth, combat, tunnels, etc
 
 ## Deus Ex 1 Plot Analysis
 
+High-level analysis: Initially you're working for UNATCO, but eventually you discover, with the help of your brother, that UNATCO is part of a large plot to control and manipulate the governments of the world and their populations, by using the Grey Death, and it's cure Ambrosia, to hold governments hostage, so you defect. After defecting, your primary goal is to cure the Grey Death for everyone, and defeat Bob Page, preventing him from establishing himself as permanent cyber-dictator of Earth.
+
+## Missions
+
 - 1st Mission: Liberty Island
 - 2nd Mission: Battery Park, Hell's Kitchen, and Warehouse District
 - 3rd Mission: Brooklyn Bridge Station, Mole Tunnels, and LaGuardia Airport
