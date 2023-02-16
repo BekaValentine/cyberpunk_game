@@ -121,3 +121,9 @@ Why does it take all of this to stop Bob Page? A backward chaining analysis migh
 5. Get the info, and get a synthesizer/universal constructor.
 6. Where is the info? Where is the constructor?
 7. You get the info from/with Everett, and the constructor from X-51/the ocean lab
+
+### Main Story Beats
+
+1. Defect from UNATCO (Motivating the backward chaining questions "why? what's the immediate fallout?")
+2. Stop the spread of the Grey Death (Motivating the backward chaining questions "how? how do you know?")
+3. Cure the Grey Death/Defeat Page (Motivating the backward chaining questions "how? how do you know?")
