@@ -106,6 +106,8 @@ Emphasize different rebel factions, their respective concerns, etc.
 
 MAJOR PLOT POINT: There should be some big overarching conspiracy vibe, NOT ILLUMINATI STUFF THO, which culminates in it being discovered that the source of it all is aliens who are secretly manipulating things digitally, and then the finally of the "episode" ends with them making first contact
 
+Spec out how the player gets mission assignments. Obviously in the parts of the game when they're aligned with a faction, they get missions from the folx in the faction, but what about when they're not? How do we navigate that underspecified moment? In DX, the factions come to you, and the context (eg MJ12 base under UNATCO, etc where they're all enemies now) forces you to go along or get killed.
+
 ### BRANCHING PATHS
 
 It ought to be able to play this game in a highly branching-path manner. Main branches should be:
@@ -133,6 +135,8 @@ AND when the ending comes around and the aliens make first contact, who you're w
 Paths vary: corporate path has lots more pentesting missions, while underground paths have more dirt digging, etc. Corp paths have upsides and downsides -- upsides are more easy access to lots of corporate facilities, downsides are more morally questionable things you have to accept and let slide (b/c revealing them gets you fired).
 
 Different paths all must be able to intersect w/ main story beats -- how depends on the beat, and there are different options, routes, easinesses, etc.
+
+Observation: Movement between paths is not entirely up to the player unless that's desired. In some sense, there are certain changes which can be made at the player's choosing -- for instance, killing Anna Navarre in DX -- but other changes are in the hands of others -- for instahce, UNATCO JC an enemy after he sends the signal to Silhouette. If it's necessary to force th player down a path, that can be used: constrain the context of the player character.
 
 ## Task Rambles
 
