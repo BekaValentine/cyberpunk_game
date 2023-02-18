@@ -108,6 +108,12 @@ MAJOR PLOT POINT: There should be some big overarching conspiracy vibe, NOT ILLU
 
 Spec out how the player gets mission assignments. Obviously in the parts of the game when they're aligned with a faction, they get missions from the folx in the faction, but what about when they're not? How do we navigate that underspecified moment? In DX, the factions come to you, and the context (eg MJ12 base under UNATCO, etc where they're all enemies now) forces you to go along or get killed.
 
+  - HUD? Too contrived, not diagetic enough. Even with in-world excuses like smart contact lenses, it feels far fetched. But maybe, as an option later on.
+  - Phone? Requires checking it, unless we emphasize the audio ringer/alert noise aspect. But a find option.
+  - Email? Requires checking it, needs audio alerts. Probably would be phone based anyway. Also a fine option.
+  - In person? Very diagetic. Nice way to initiate contact, and offers contextually determined opsec potential.
+  - Dead drops, etc.? Very diagretic, a good way to have continued contact over time.
+
 ### BRANCHING PATHS
 
 It ought to be able to play this game in a highly branching-path manner. Main branches should be:
