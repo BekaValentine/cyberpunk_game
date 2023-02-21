@@ -63,15 +63,9 @@
   - [ ] Character generator
     - Ethnicity
     - Name
-    - Optional skill set??
-      - Weapons
-      - Self Defense
-      - ???
+    - ???
   - [ ] Vertical Slice to build and test:
-    - [ ] 3D modeling and scene building
-      - [ ] Characters
-      - [ ] Places / Building
-      - [ ] Objects
+    - [ ] 3D modeling and scene building - see modelling_tasks.md
     - [ ] Behaviors / Actions / Interactions
     - [ ] UI
     - [ ] AI
