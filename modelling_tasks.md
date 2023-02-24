@@ -64,7 +64,8 @@ There is some logic to some of this. Namely, we can determine what objects need 
       - [ ] Table Lamp
       - [ ] Wall Lamp
       - [ ] Ceiling Lamp
-    - [ ] Assorted plants
+    - [ ] Assorted plants and mushrooms
+    - [ ] Vases
     - [ ] Clocks
     - [ ] Waste Paper Baskets
     - [ ] Books and Magazines
