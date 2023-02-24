@@ -60,6 +60,14 @@
       - CFO for each company
       - Main researchers/developers
 - Production
+  - [ ] First Person Interactions
+    - [ ] Pick up object
+      -  Note: walking w/ object + how it interacts with the environment as you walk
+    - [ ] Drop object
+    - [ ] Throw object
+    - [ ] Take object and stash in backpack
+    - [ ] Equip object from backpack
+    - [ ] Interact with world item
   - [ ] Character generator
     - Ethnicity
     - Name
@@ -93,6 +101,8 @@ Figure out a way to make sure that you can never fail and have to restart, only 
 Desert arcology? maybe NEOM?
 
 SF Mission involving Hunters Point radiation, maybe?
+
+Crumbling US infrastructure leading to disasters that get covered up, etc. creating badlands.
 
 Climate refu housing that has all sorts of DRM-enforced auto-lockouts for rent payment failures, plus lots of onerous debt to get a spot
 
