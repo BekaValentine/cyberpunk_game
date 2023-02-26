@@ -60,7 +60,7 @@
       - CFO for each company
       - Main researchers/developers
 - Production
-  - [ ] First Person Interactions
+  - [ ] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
     - [ ] Pick up object
       -  Note: walking w/ object + how it interacts with the environment as you walk
     - [ ] Drop object
@@ -68,6 +68,9 @@
     - [ ] Take object and stash in backpack
     - [ ] Equip object from backpack
     - [ ] Interact with world item
+    - [ ] Walk
+    - [ ] Run
+    - [ ] Crouch
   - [ ] Character generator
     - Ethnicity
     - Name
