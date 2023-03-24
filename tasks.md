@@ -65,20 +65,21 @@
       - Interactions
   - [ ] UI
     - [ ] Menus
-    - [ ] Backpack
-    - [ ] Phone
+    - [ ] Backpack - non-diagetic UI for now?
+    - [ ] Phone - non-diagetic UI for now
       - [ ] Notes
       - [ ] Maps
       - [ ] Messages
-  - [ ] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
-    - [x] Pick up object
-    - [x] Drop object
-    - [x] Throw object
+  - [x] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
+    - [x] Pick up object -- via MANIPULATE
+      - [x] Drop object
+      - [x] Throw object
     - [x] Push object
-    - [ ] Pull object?
-    - [ ] Take object and stash in backpack
-    - [ ] Equip object from backpack
-    - [x] Use optional equipped object on world item
+    - [x] Generic Use
+      - Use optional equipped object on world item -- just generic use, passing in the held object to the used object as an argument
+      - Pull object? -- only as an instane of USE
+    - [x] Take object and stash in backpack
+    - [x] Equip object from backpack
     - [x] Walk
     - [x] Run
     - [x] Crouch
