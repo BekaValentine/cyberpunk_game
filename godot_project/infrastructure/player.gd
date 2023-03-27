@@ -11,6 +11,7 @@ export var push_force = 1
 var backpack = null
 var crouch_tween = null
 var camera = null
+var hold_camera = null
 var hold_position = null
 var pivot = null
 var pickup_detect_ray = null
@@ -46,6 +47,7 @@ var NORMAL_COLLISION_MASK = 2 | 4;
 func _ready():
 	backpack = $backpack
 	camera = $pivot/camera
+	hold_camera = $pivot/camera/hold_viewport_container/hold_viewport/hold_camera
 	crouch_tween = $crouch_tween
 	hold_position = $pivot/hold_position
 	object_highlight = $object_highlight
@@ -124,6 +126,7 @@ func hold_object(obj):
 	held_object = obj
 	if not held_object.get_parent():
 		self.get_parent().add_child(held_object)
+#	hold_position.add_child(held_object)
 	self_initial_rotation = self.get_rotation()
 	if held_object.transform.basis.y.angle_to(Vector3.UP) > 0.01:
 		held_object_initial_rotation = Vector3.ZERO
@@ -131,16 +134,23 @@ func hold_object(obj):
 		held_object_initial_rotation = held_object.get_rotation()
 #	held_object.mode = RigidBody.MODE_KINEMATIC
 	held_object.collision_mask = HELD_COLLISION_MASK
+	held_object._hold()
 
 func throw_object():
+	held_object._release()
+	var old_transform = held_object.global_transform
 	held_object.mode = RigidBody.MODE_RIGID
 	held_object.collision_mask = NORMAL_COLLISION_MASK
+	held_object.global_transform = old_transform
 	held_object.apply_impulse(Vector3(0,0,0), -10*camera.global_transform.basis.z)
 	held_object = null
 
 func drop_object():
+	held_object._release()
+	var old_transform = held_object.global_transform
 	held_object.mode = RigidBody.MODE_RIGID
 	held_object.collision_mask = NORMAL_COLLISION_MASK
+	held_object.global_transform = old_transform
 	held_object = null
 
 func take_object():
@@ -209,6 +219,8 @@ func move(delta):
 	#prevents infinite falling
 	if translation.y < fall_limit:
 		scene_manager.reload_scene()
+
+	hold_camera.global_transform = camera.global_transform
 
 func interact_objects():
 	

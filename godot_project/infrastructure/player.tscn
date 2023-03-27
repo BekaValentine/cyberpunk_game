@@ -42,7 +42,26 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.64, 0 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.57799, -1.22091 )
 
 [node name="camera" type="Camera" parent="pivot"]
+cull_mask = 2148532221
 environment = SubResource( 2 )
+
+[node name="hold_viewport_container" type="ViewportContainer" parent="pivot/camera"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hold_viewport" type="Viewport" parent="pivot/camera/hold_viewport_container"]
+size = Vector2( 1920, 1080 )
+transparent_bg = true
+handle_input_locally = false
+render_target_update_mode = 3
+
+[node name="hold_camera" type="Camera" parent="pivot/camera/hold_viewport_container/hold_viewport"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.63492, 0 )
+cull_mask = 2
 
 [node name="pickup_detect_ray" type="RayCast" parent="pivot"]
 enabled = true
