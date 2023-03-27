@@ -65,11 +65,12 @@
       - Interactions
   - [ ] UI
     - [ ] Menus
-    - [ ] Backpack - non-diagetic UI for now?
-    - [ ] Phone - non-diagetic UI for now
+    - [ ] Backpack - non-diagetic UI
+    - [ ] Phone - non-diagetic UI
       - [ ] Notes
       - [ ] Maps
       - [ ] Messages
+      - [ ] Hacking app???
   - [x] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
     - [x] Pick up object -- via MANIPULATE
       - [x] Drop object
@@ -99,7 +100,6 @@
 
 ## MAJOR TODO
 
-Make the game more DX-illuminati focused
 
 Tie DRM and remote shutoffs into the augmentation stuff
   - Backstory here should be cops locking down phones, computers, and augments at protests
@@ -123,7 +123,10 @@ Climate refu housing that has all sorts of DRM-enforced auto-lockouts for rent p
 
 Emphasize different rebel factions, their respective concerns, etc.
 
-MAJOR PLOT POINT: There should be some big overarching conspiracy vibe, NOT ILLUMINATI STUFF THO, which culminates in it being discovered that the source of it all is aliens who are secretly manipulating things digitally, and then the finally of the "episode" ends with them making first contact
+- MAJOR PLOT POINT: There should be some big overarching conspiracy vibe, NOT ILLUMINATI STUFF THO, which culminates in it being discovered that the source of it all is aliens who are secretly manipulating things digitally, and then the finally of the "episode" ends with them making first contact
+
+  - Make the game more DX-illuminati focused?? SORT OF
+  - Maybe mirror the initial setup of DXHR: illuminati plot, big international legislation, paranoid boss, BUT: the first big mission is the illuminati mission and you very quickly learn that they're not the ones behind the legislation, they're just taking advantage of it
 
 Spec out how the player gets mission assignments. Obviously in the parts of the game when they're aligned with a faction, they get missions from the folx in the faction, but what about when they're not? How do we navigate that underspecified moment? In DX, the factions come to you, and the context (eg MJ12 base under UNATCO, etc where they're all enemies now) forces you to go along or get killed.
 
