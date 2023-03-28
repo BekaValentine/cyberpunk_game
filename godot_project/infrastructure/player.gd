@@ -1,4 +1,4 @@
-extends KinematicBody
+extends RigidBody
 
 export var fall_limit = -100
 export var gravity = -9.8
@@ -189,6 +189,7 @@ func _physics_process(delta):
 		interact_objects()
 
 func move(delta):
+	velocity = Vector3.ZERO
 	var move_direction = Vector3.ZERO
 	# determine the direction to move in
 	var basis = global_transform.basis
@@ -201,33 +202,35 @@ func move(delta):
 	if Input.is_action_pressed("move_right"):
 		move_direction += basis.x
 	
-	if is_on_floor():
+#	if is_on_floor():
 		# we're walking, running, or jumping
 		
 		# determine the horizontal velocity to move
-		var speed
-		if Input.is_action_pressed("run"):
-			# we're running
-			speed = run_speed
-		else:
-			# we're walking
-			speed = walk_speed
-
-		var vel = move_direction.normalized() * speed
-		velocity.x = vel.x
-		velocity.z = vel.z
-		
-		# determine the vertical velocity
-		if Input.is_action_just_pressed("jump"):
-			# we're jumping, so we just set the vertical speed
-			print("Jump!")
-			velocity.y = jump_speed
-		
+	var speed
+	if Input.is_action_pressed("run"):
+		# we're running
+		speed = run_speed
 	else:
-		# we're falling
-		velocity.y += gravity * delta
+		# we're walking
+		speed = walk_speed
 
-	velocity = move_and_slide(velocity, Vector3.UP,true)
+	var vel = move_direction.normalized() * speed
+	velocity.x = vel.x
+	velocity.z = vel.z
+	
+	# determine the vertical velocity
+	if Input.is_action_just_pressed("jump"):
+		# we're jumping, so we just set the vertical speed
+		print("Jump!")
+		velocity.y = jump_speed
+		
+#	else:
+#		# we're falling
+#		velocity.y += gravity * delta
+
+#	velocity = move_and_slide(velocity, Vector3.UP,true)
+	self.apply_central_impulse(10*velocity)
+#	velocity = linear_velocity
 	
 	#prevents infinite falling
 	if translation.y < fall_limit:

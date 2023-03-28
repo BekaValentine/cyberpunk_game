@@ -19,6 +19,7 @@ radius = 0.1
 
 [node name="player" parent="." instance=ExtResource( 1 )]
 transform = Transform( 0.547286, 0, -0.836946, 0, 1, 0, 0.836946, 0, 0.547286, 0, 0, 0 )
+push_force = 1
 
 [node name="ground" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.006, -1, 0.025 )
