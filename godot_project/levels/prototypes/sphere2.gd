@@ -5,11 +5,15 @@ var highlight_shape = null
 func _ready():
 	highlight_shape = $CSGSphere
 
-func _hold():
-	$CSGSphere.layers = 2
+func hold_collider_extents():
+	var r = $CollisionShape.shape.radius
+	return Vector3(r,r,r)
 
-func _release():
-	$CSGSphere.layers = 1
+func hold():
+	pass
+
+func release():
+	pass
 
 func take():
 	print("taken!")

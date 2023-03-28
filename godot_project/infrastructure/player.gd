@@ -12,6 +12,7 @@ var backpack = null
 var crouch_tween = null
 var camera = null
 var hold_camera = null
+var hold_collider = null
 var hold_position = null
 var pivot = null
 var pickup_detect_ray = null
@@ -48,13 +49,16 @@ func _ready():
 	backpack = $backpack
 	camera = $pivot/camera
 	hold_camera = $pivot/camera/hold_viewport_container/hold_viewport/hold_camera
+	hold_collider = $hold_collider
 	crouch_tween = $crouch_tween
 	hold_position = $pivot/hold_position
 	object_highlight = $object_highlight
 	pickup_detect_ray = $pivot/pickup_detect_ray
 	pivot = $pivot
 	stand_height = pivot.transform.origin.y
+	
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	hold_collider.disabled = true
 
 
 
@@ -78,7 +82,7 @@ func _unhandled_input(event):
 			throw_object()
 		
 		elif highlighted_object:
-			if highlighted_object.is_in_group("manipulate"):
+			if highlighted_object.has_method("hold"):
 				pickup_object()
 				
 
@@ -88,11 +92,11 @@ func _unhandled_input(event):
 
 	elif Input.is_action_just_pressed("take"):
 		if held_object:
-			if held_object.is_in_group("take"):
+			if held_object.has_method("take"):
 				take_object()
 	
 	elif Input.is_action_just_pressed("use"):
-		if highlighted_object.is_in_group("use"):
+		if highlighted_object.has_method("use"):
 			use_object()
 		
 
@@ -117,6 +121,8 @@ func finished_crouching_transition():
 
 func set_camera_height(h):
 	pivot.transform.origin.y = h
+	if held_object:
+		set_held_object_position()
 
 func pickup_object():
 	hold_object(highlighted_object)
@@ -134,26 +140,32 @@ func hold_object(obj):
 		held_object_initial_rotation = held_object.get_rotation()
 #	held_object.mode = RigidBody.MODE_KINEMATIC
 	held_object.collision_mask = HELD_COLLISION_MASK
-	held_object._hold()
+	held_object.hold()
+	print(held_object.hold_collider_extents())
+	hold_collider.shape.extents = held_object.hold_collider_extents()
+	hold_collider.disabled = false
 
 func throw_object():
-	held_object._release()
+	held_object.release()
 	var old_transform = held_object.global_transform
 	held_object.mode = RigidBody.MODE_RIGID
 	held_object.collision_mask = NORMAL_COLLISION_MASK
 	held_object.global_transform = old_transform
 	held_object.apply_impulse(Vector3(0,0,0), -10*camera.global_transform.basis.z)
 	held_object = null
+	hold_collider.disabled = true
 
 func drop_object():
-	held_object._release()
+	held_object.release()
 	var old_transform = held_object.global_transform
 	held_object.mode = RigidBody.MODE_RIGID
 	held_object.collision_mask = NORMAL_COLLISION_MASK
 	held_object.global_transform = old_transform
 	held_object = null
+	hold_collider.disabled = true
 
 func take_object():
+	held_object.take()
 	backpack.store_item(held_object)
 	held_object.get_parent().remove_child(held_object)
 	
@@ -188,7 +200,7 @@ func move(delta):
 		move_direction -= basis.x
 	if Input.is_action_pressed("move_right"):
 		move_direction += basis.x
-			
+	
 	if is_on_floor():
 		# we're walking, running, or jumping
 		
@@ -208,6 +220,7 @@ func move(delta):
 		# determine the vertical velocity
 		if Input.is_action_just_pressed("jump"):
 			# we're jumping, so we just set the vertical speed
+			print("Jump!")
 			velocity.y = jump_speed
 		
 	else:
@@ -278,10 +291,16 @@ func hide_highlight():
 
 func rotate_held_object():
 	if held_object:
-		held_object.global_transform.origin = hold_position.global_transform.origin
+		set_held_object_position()
 		var delta_rotation = self.get_rotation() - self_initial_rotation
 #		$debug_message.show_text(str(delta_rotation))
 		held_object.set_rotation(held_object_initial_rotation + delta_rotation)
 
 func viewing_ui():
 	return backpack.visible
+
+func set_held_object_position():
+	held_object.global_transform.origin = hold_position.global_transform.origin
+#	held_object.global_transform.origin.y = max(held_object.global_transform.origin.y, 0)
+	hold_collider.global_transform.origin = held_object.global_transform.origin
+#	print(hold_collider.shape.extents, hold_collider.global_transform.origin)
