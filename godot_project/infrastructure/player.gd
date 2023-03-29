@@ -11,6 +11,7 @@ export var push_force = 1
 var backpack = null
 var crouch_tween = null
 var camera = null
+var floor_detect_ray = null
 var hold_camera = null
 var hold_collider = null
 var hold_position = null
@@ -48,6 +49,7 @@ var NORMAL_COLLISION_MASK = 2 | 4;
 func _ready():
 	backpack = $backpack
 	camera = $pivot/camera
+	floor_detect_ray = $floor_detect_ray
 	hold_camera = $pivot/camera/hold_viewport_container/hold_viewport/hold_camera
 	hold_collider = $hold_collider
 	crouch_tween = $crouch_tween
@@ -188,6 +190,14 @@ func _physics_process(delta):
 		rotate_held_object()
 		interact_objects()
 
+func is_on_floor():
+	var raycast_hit = floor_detect_ray.get_collider()
+#	print(floor_detect_ray.global_transform.origin)
+	if raycast_hit:
+		print(raycast_hit)
+	
+	return raycast_hit != null
+
 func move(delta):
 	velocity = Vector3.ZERO
 	var move_direction = Vector3.ZERO
@@ -202,31 +212,31 @@ func move(delta):
 	if Input.is_action_pressed("move_right"):
 		move_direction += basis.x
 	
-#	if is_on_floor():
+	if is_on_floor():
 		# we're walking, running, or jumping
 		
 		# determine the horizontal velocity to move
-	var speed
-	if Input.is_action_pressed("run"):
-		# we're running
-		speed = run_speed
-	else:
-		# we're walking
-		speed = walk_speed
+		var speed
+		if Input.is_action_pressed("run"):
+			# we're running
+			speed = run_speed
+		else:
+			# we're walking
+			speed = walk_speed
 
-	var vel = move_direction.normalized() * speed
-	velocity.x = vel.x
-	velocity.z = vel.z
-	
-	# determine the vertical velocity
-	if Input.is_action_just_pressed("jump"):
-		# we're jumping, so we just set the vertical speed
-		print("Jump!")
-		velocity.y = jump_speed
+		var vel = move_direction.normalized() * speed
+		velocity.x = vel.x
+		velocity.z = vel.z
 		
-#	else:
-#		# we're falling
-#		velocity.y += gravity * delta
+		# determine the vertical velocity
+		if Input.is_action_just_pressed("jump"):
+			# we're jumping, so we just set the vertical speed
+			print("Jump!")
+			velocity.y = jump_speed
+		
+	else:
+		# we're falling
+		velocity.y += gravity * delta
 
 #	velocity = move_and_slide(velocity, Vector3.UP,true)
 	self.apply_central_impulse(10*velocity)
