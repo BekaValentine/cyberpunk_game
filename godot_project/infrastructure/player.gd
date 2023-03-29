@@ -2,7 +2,7 @@ extends RigidBody
 
 export var fall_limit = -100
 export var gravity = -9.8
-export var jump_speed = 2.0
+export var jump_speed = 5.0
 export var mouse_sensitivity = 0.002
 export var run_speed = 5.0
 export var walk_speed = 1.0
@@ -191,12 +191,7 @@ func _physics_process(delta):
 		interact_objects()
 
 func is_on_floor():
-	var raycast_hit = floor_detect_ray.get_collider()
-#	print(floor_detect_ray.global_transform.origin)
-	if raycast_hit:
-		print(raycast_hit)
-	
-	return raycast_hit != null
+	return floor_detect_ray.get_collider() != null
 
 func move(delta):
 	velocity = Vector3.ZERO
@@ -228,6 +223,8 @@ func move(delta):
 		velocity.x = vel.x
 		velocity.z = vel.z
 		
+		velocity = velocity - Vector3(linear_velocity.x, 0, linear_velocity.z)
+
 		# determine the vertical velocity
 		if Input.is_action_just_pressed("jump"):
 			# we're jumping, so we just set the vertical speed
@@ -239,7 +236,8 @@ func move(delta):
 		velocity.y += gravity * delta
 
 #	velocity = move_and_slide(velocity, Vector3.UP,true)
-	self.apply_central_impulse(10*velocity)
+	self.apply_central_impulse(velocity)
+	print(linear_velocity.length_squared())
 #	velocity = linear_velocity
 	
 	#prevents infinite falling
