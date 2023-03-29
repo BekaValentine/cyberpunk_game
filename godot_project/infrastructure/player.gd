@@ -143,7 +143,6 @@ func hold_object(obj):
 #	held_object.mode = RigidBody.MODE_KINEMATIC
 	held_object.collision_mask = HELD_COLLISION_MASK
 	held_object.hold()
-	print(held_object.hold_collider_extents())
 	hold_collider.shape.extents = held_object.hold_collider_extents()
 	hold_collider.disabled = false
 
@@ -228,17 +227,13 @@ func move(delta):
 		# determine the vertical velocity
 		if Input.is_action_just_pressed("jump"):
 			# we're jumping, so we just set the vertical speed
-			print("Jump!")
 			velocity.y = jump_speed
 		
 	else:
 		# we're falling
 		velocity.y += gravity * delta
 
-#	velocity = move_and_slide(velocity, Vector3.UP,true)
 	self.apply_central_impulse(velocity)
-	print(linear_velocity.length_squared())
-#	velocity = linear_velocity
 	
 	#prevents infinite falling
 	if translation.y < fall_limit:
@@ -304,7 +299,6 @@ func rotate_held_object():
 	if held_object:
 		set_held_object_position()
 		var delta_rotation = self.get_rotation() - self_initial_rotation
-#		$debug_message.show_text(str(delta_rotation))
 		held_object.set_rotation(held_object_initial_rotation + delta_rotation)
 
 func viewing_ui():
@@ -312,6 +306,4 @@ func viewing_ui():
 
 func set_held_object_position():
 	held_object.global_transform.origin = hold_position.global_transform.origin
-#	held_object.global_transform.origin.y = max(held_object.global_transform.origin.y, 0)
 	hold_collider.global_transform.origin = held_object.global_transform.origin
-#	print(hold_collider.shape.extents, hold_collider.global_transform.origin)
