@@ -47,7 +47,16 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.552, 1, -3.788 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.903, 1, -2.165 )
 
 [node name="cube3" parent="." instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.461, 1, 3.139 )
+transform = Transform( 1, 0, 0, 0, 0.3, 0, 0, 0, 0.2, -0.461, -0.00617802, 2.72162 )
+
+[node name="cube4" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 0.3, 0, 0, 0, 0.2, -0.461, 0.271179, 2.97916 )
+
+[node name="cube5" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 0.3, 0, 0, 0, 0.2, -0.461, 0.539671, 3.23619 )
+
+[node name="cube6" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 0.3, 0, 0, 0, 0.2, -0.461, 0.797524, 3.47175 )
 
 [node name="OmniLight" type="OmniLight" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.03208, 6.1249, -5.11075 )

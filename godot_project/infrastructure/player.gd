@@ -11,7 +11,7 @@ export var push_force = 1
 var backpack = null
 var crouch_tween = null
 var camera = null
-var floor_detect_ray = null
+var floor_detect_rays = null
 var hold_camera = null
 var hold_collider = null
 var hold_position = null
@@ -49,7 +49,9 @@ var NORMAL_COLLISION_MASK = 2 | 4;
 func _ready():
 	backpack = $backpack
 	camera = $pivot/camera
-	floor_detect_ray = $floor_detect_ray
+	floor_detect_rays = [
+		$floor_detect_ray_0
+	]
 	hold_camera = $pivot/camera/hold_viewport_container/hold_viewport/hold_camera
 	hold_collider = $hold_collider
 	crouch_tween = $crouch_tween
@@ -190,7 +192,11 @@ func _physics_process(delta):
 		interact_objects()
 
 func is_on_floor():
-	return floor_detect_ray.get_collider() != null
+	for floor_detect_ray in floor_detect_rays:
+		if floor_detect_ray.get_collider():
+			return true
+	
+	return false
 
 func move(delta):
 	velocity = Vector3.ZERO
