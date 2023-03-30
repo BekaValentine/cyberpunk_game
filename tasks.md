@@ -110,6 +110,7 @@ Tie in real world politics into the NSF backstory
   - primitivism/anti-civ, kaczynski, and tracer tong
   - somehow bring in ruby ridge and waco maybe?
   - black panthers and guns?
+  - "Who it does it for and who it does it to"
 
 Figure out a way to make sure that you can never fail and have to restart, only go forward -- no character death, no Mission Failed, etc. only forward
 
