@@ -11,7 +11,7 @@ export var push_force = 1
 var backpack = null
 var crouch_tween = null
 var camera = null
-var floor_detect_rays = null
+var foot_collider = null
 var hold_camera = null
 var hold_collider = null
 var hold_position = null
@@ -35,6 +35,11 @@ var pushed_objects = []
 var pushed_objects_changed = false
 var inventory_open = false
 
+# on floor stuff
+var on_floor = false
+var yvals = [0]
+var dyvals = []
+
 var tick = 0
 
 var WORLD_OBJECT_COLLISION_MASK = 2;
@@ -49,9 +54,7 @@ var NORMAL_COLLISION_MASK = 2 | 4;
 func _ready():
 	backpack = $backpack
 	camera = $pivot/camera
-	floor_detect_rays = [
-		$floor_detect_ray_0
-	]
+	foot_collider = $foot_collider
 	hold_camera = $pivot/camera/hold_viewport_container/hold_viewport/hold_camera
 	hold_collider = $hold_collider
 	crouch_tween = $crouch_tween
@@ -184,6 +187,34 @@ func use_object():
 
 
 
+func _integrate_forces(state):
+	# manage y & dy
+	yvals.push_front(global_transform.origin.y)
+	dyvals.push_front(abs(yvals[0] - yvals[1]) > 0.0001)
+	if yvals.size() > 20:
+		yvals.pop_back()
+		dyvals.pop_back()
+
+	$debug_message.show_text(str(on_floor))
+	# if the foot is on the floor, we're on the floor
+	for index in state.get_contact_count():
+		if state.get_contact_local_shape(index) == foot_collider.get_index():
+			on_floor = true
+			return
+
+	# otherwise, heuristically, if we're moving fast in y were not on the floor
+	if state.linear_velocity.y > 0 or state.linear_velocity.y <= -1:
+		on_floor = false
+		return
+
+	# otherwise, heuristically, if the y position isn't stably unchanging, we're not on the floor
+	for dy_is_nonzero in dyvals:
+		if dy_is_nonzero:
+			on_floor = false
+			return
+
+	on_floor = false
+
 func _physics_process(delta):
 	tick += 1
 	if not self.viewing_ui():
@@ -192,11 +223,7 @@ func _physics_process(delta):
 		interact_objects()
 
 func is_on_floor():
-	for floor_detect_ray in floor_detect_rays:
-		if floor_detect_ray.get_collider():
-			return true
-	
-	return false
+	return on_floor
 
 func move(delta):
 	velocity = Vector3.ZERO
