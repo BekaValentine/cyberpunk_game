@@ -167,6 +167,8 @@ Different paths all must be able to intersect w/ main story beats -- how depends
 
 Observation: Movement between paths is not entirely up to the player unless that's desired. In some sense, there are certain changes which can be made at the player's choosing -- for instance, killing Anna Navarre in DX -- but other changes are in the hands of others -- for instahce, UNATCO JC an enemy after he sends the signal to Silhouette. If it's necessary to force th player down a path, that can be used: constrain the context of the player character.
 
+Fraudulent or buggy high tech shit that fuck people over (predictive policing AI like mentioned before, but also things like shot spotter and other analogous things like facial recognition etc)
+
 ## Task Rambles
 
 - wet printing medicines to heal yourself
@@ -197,6 +199,10 @@ toy robots being used for surveillance of kids
 PC is offered help in getting justice for their loved one after their death by a hacker. the catch is that, on an upcoming pen test at a subsidiary of the megacorp that caused the loved one's death, PC has to plant a bug in their system. this lets the hacker gain access and find a bunch of incriminating dirt
 
 eventually PC is on a job and stumbles across something she shouldn't, and learns some horrible secret that she's asked to help keep secret. she can choose to go along with it, in which case she decides to become an undercover agent for the underground, or she can say no, in which case she'll be fired and punished and forced into the arms of the underground
+
+maps (like google maps) should be available but should be realistic -- you get publicly available information, and MAYBE you add some info like destination markers based on your particular quest but you have to actually use the app
+
+doors should always be openable SOMEHOW and there should always be a variety of options but the logical space of options is basically always there and that provides places where the actual options might be limited. for instance, every door in principle can be opened with a stolen key but whether THIS door can and how easy it is to find and steal a key depends on many things. this is what the player has to figure out. the play has to discover what their options are with every door, every lock, every computer, etc.
 
 ### Example tasks, backward chaining from the goal
 
