@@ -222,6 +222,8 @@ func move(delta):
 	# determine the horizontal velocity to move
 	var speed
 	if is_on_floor():
+		# we're on the floor so we can move under our own power a lot
+		
 		if Input.is_action_pressed("run"):
 			# we're running
 			speed = run_speed
@@ -239,14 +241,12 @@ func move(delta):
 		if Input.is_action_just_pressed("jump"):
 			# we're jumping, so we just set the vertical speed
 			velocity.y = jump_speed
-			
-	#	else:
-	#	if not is_on_floor():
-	#		# we're falling
-	#		velocity.y += gravity * delta
+
 		self.apply_central_impulse(velocity)
 		
 	elif Vector3(linear_velocity.x, 0, linear_velocity.z).length() < air_speed:
+		# we're in the air and don't already have some momentum so we can move
+		# tiny bit to get onto ledges
 		
 		speed = air_speed
 		
