@@ -6,15 +6,17 @@ export var jump_speed = 5.0
 export var mouse_sensitivity = 0.002
 export var run_speed = 5.0
 export var walk_speed = 1.0
+export var air_speed = 0.1
 export var push_force = 1
 
 var backpack = null
+var body_collider = null
 var crouch_tween = null
 var camera = null
-var foot_collider = null
 var hold_camera = null
 var hold_collider = null
 var hold_position = null
+var on_floor = false
 var pivot = null
 var pickup_detect_ray = null
 
@@ -35,11 +37,6 @@ var pushed_objects = []
 var pushed_objects_changed = false
 var inventory_open = false
 
-# on floor stuff
-var on_floor = false
-var yvals = [0]
-var dyvals = []
-
 var tick = 0
 
 var WORLD_OBJECT_COLLISION_MASK = 2;
@@ -53,8 +50,8 @@ var NORMAL_COLLISION_MASK = 2 | 4;
 
 func _ready():
 	backpack = $backpack
+	body_collider = $body_collider
 	camera = $pivot/camera
-	foot_collider = $foot_collider
 	hold_camera = $pivot/camera/hold_viewport_container/hold_viewport/hold_camera
 	hold_collider = $hold_collider
 	crouch_tween = $crouch_tween
@@ -188,31 +185,11 @@ func use_object():
 
 
 func _integrate_forces(state):
-	# manage y & dy
-	yvals.push_front(global_transform.origin.y)
-	dyvals.push_front(abs(yvals[0] - yvals[1]) > 0.0001)
-	if yvals.size() > 20:
-		yvals.pop_back()
-		dyvals.pop_back()
-
-	$debug_message.show_text(str(on_floor))
-	# if the foot is on the floor, we're on the floor
 	for index in state.get_contact_count():
-		if state.get_contact_local_shape(index) == foot_collider.get_index():
+		if state.get_contact_local_shape(index) == body_collider.get_index() and\
+			state.get_contact_local_normal(index).dot(Vector3.UP) > 0.9:
 			on_floor = true
 			return
-
-	# otherwise, heuristically, if we're moving fast in y were not on the floor
-	if state.linear_velocity.y > 0 or state.linear_velocity.y <= -1:
-		on_floor = false
-		return
-
-	# otherwise, heuristically, if the y position isn't stably unchanging, we're not on the floor
-	for dy_is_nonzero in dyvals:
-		if dy_is_nonzero:
-			on_floor = false
-			return
-
 	on_floor = false
 
 func _physics_process(delta):
@@ -239,11 +216,12 @@ func move(delta):
 	if Input.is_action_pressed("move_right"):
 		move_direction += basis.x
 	
+#	if is_on_floor():
+	# we're walking, running, or jumping
+	
+	# determine the horizontal velocity to move
+	var speed
 	if is_on_floor():
-		# we're walking, running, or jumping
-		
-		# determine the horizontal velocity to move
-		var speed
 		if Input.is_action_pressed("run"):
 			# we're running
 			speed = run_speed
@@ -261,12 +239,23 @@ func move(delta):
 		if Input.is_action_just_pressed("jump"):
 			# we're jumping, so we just set the vertical speed
 			velocity.y = jump_speed
+			
+	#	else:
+	#	if not is_on_floor():
+	#		# we're falling
+	#		velocity.y += gravity * delta
+		self.apply_central_impulse(velocity)
 		
-	else:
-		# we're falling
-		velocity.y += gravity * delta
+	elif Vector3(linear_velocity.x, 0, linear_velocity.z).length() < air_speed:
+		
+		speed = air_speed
+		
+		var vel = move_direction.normalized() * speed
+		velocity.x = vel.x
+		velocity.z = vel.z
+		
+		self.apply_central_impulse(velocity)
 
-	self.apply_central_impulse(velocity)
 	
 	#prevents infinite falling
 	if translation.y < fall_limit:
