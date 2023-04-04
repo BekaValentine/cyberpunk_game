@@ -100,8 +100,9 @@ func _unhandled_input(event):
 				take_object()
 	
 	elif Input.is_action_just_pressed("use"):
-		if highlighted_object.has_method("use"):
-			use_object()
+		if highlighted_object:
+			if highlighted_object.has_method("use"):
+				use_object()
 		
 
 func toggle_crouch():
