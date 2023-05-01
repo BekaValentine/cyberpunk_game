@@ -84,6 +84,7 @@
     - [x] Walk
     - [x] Run
     - [x] Crouch
+    - [ ] Stairs
   - [ ] Character generator
     - Ethnicity
     - Name
@@ -100,6 +101,8 @@
 
 ## MAJOR TODO
 
+Make the game more DX-illuminati focused
+  NO! More conspiratorial, sure, but the illuminati and other canonical conspiracy theories should be treated like quaint fantasies and excuses for people who want easy solutions to their problems, and people who want a cover for their actually bad behavior (ala Echelon)
 
 Tie DRM and remote shutoffs into the augmentation stuff
   - Backstory here should be cops locking down phones, computers, and augments at protests
@@ -205,6 +208,10 @@ maps (like google maps) should be available but should be realistic -- you get p
 doors should always be openable SOMEHOW and there should always be a variety of options but the logical space of options is basically always there and that provides places where the actual options might be limited. for instance, every door in principle can be opened with a stolen key but whether THIS door can and how easy it is to find and steal a key depends on many things. this is what the player has to figure out. the play has to discover what their options are with every door, every lock, every computer, etc.
 
 one interesting kind of problem for the player to solve might be something like a mission to disable surveillance tech, or alternatively/from a different role based on player choices, to do some secret mission during the time the surveillance is disabled
+
+something about peter thiel's weird breeding cult for improving the future of humanity
+
+something making fun of the rich white men who get lost in the idea that their robot arms make them oppressed
 
 ### Example tasks, backward chaining from the goal
 
