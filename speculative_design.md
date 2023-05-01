@@ -26,6 +26,7 @@ A:
     2. How will capitalists find ways to profit from it?
     3. How can it be technologized or financialized?
     4. How can it play into civil rights?
+    5. How do these trends intersect with class, race, gender, sexuality, etc.?
 
 ## Retro-future design examples
 
