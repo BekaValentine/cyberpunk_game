@@ -3,7 +3,7 @@
 Q: How do we develop the initial lists of things below? The 1-n givens?
 A:
     1. Knowing about the world, about hobbyists, about new products, new patents, new science
-    2. Knowing about social movements, political trends, etc 
+    2. Knowing about social movements, political trends, economic trends, etc. 
 
 Q: How do we make inferences?
 A: By way of some basic principles:
@@ -19,6 +19,13 @@ A:
     3. How can it be used for good things, liberatory or beautiful things?
     4. How can it be used for art, media, daily life, work, recreation, sex, fashion?
     5. How can capitalists exploit it for profit? How can anti-capitalists resist?
+
+Q: What are good questions to ask about a technological or social trend?
+A:
+    1. What happens if it continues, or if it stops? What extremes can it lead to?
+    2. How will capitalists find ways to profit from it?
+    3. How can it be technologized or financialized?
+    4. How can it play into civil rights?
 
 ## Retro-future design examples
 
