@@ -155,3 +155,18 @@ What should we speculate about in this game?
 53. Starlink and kin
 54. AI that's secretly a mechanical turk
 55. Exploited poor and 3rd world tech workers unionizing
+56. Life extension gene therapy that pushes life expectancy up to ~2x
+57. Wooden transistors
+58. Mechanical nanosurgery that kills cancer
+59. EARN IT Act and similar
+60. DIY neurotech brain interfaces
+61. Streaming protests and video surveillance
+62. Possible high-temperature superconductor
+63. AI trained on data on the web, datapoisoning
+64. Laser guns and HERF guns to shoot down drones
+65. Autonomous trash collecting robots
+66. Portable life support device
+67. Microplastics
+68. Vertical urban farming
+69. Microchips made out of conductive gel that are growable inside living tissue
+70. MXene might enable super-supercapacitors, is impermeable to EM radiation, is ultra durable 
