@@ -93,3 +93,65 @@ Predict:
 3. Patents will expire (from 1, time)
 4. Wide commercialization will happen (from 2, 3, capitalism)
 5. Hobbyist ecosystem will emerge (from 2, 4)
+
+## Speculative Design for the game
+
+What should we speculate about in this game?
+
+### Base Knowledge
+
+1. Increasingly powerful AI
+2. Increasingly humanlike AI
+3. AI that can interpret brain patterns to "read thoughts" https://www.nytimes.com/2023/05/01/science/ai-speech-language.html
+4. SQUIDs / Quantum Sensor for brain scans
+5. Deepfakes of all sorts
+6. LLMs that can generate software
+7. Boss-ware / School principle spyware
+8. Gig economics
+9. Debt-linked car lojacks
+10. Monsanto seed patents and genetic engineering
+11. John Deere tractor DRM
+12. John Deere tractor monetization of soil samples
+13. Neuralink
+14. Fusion startups?
+15. Oumuamua
+16. Supercapacitors and superbatteries
+17. SpaceX and Blue Origin
+18. Artificial muscles
+19. DARPA Subterranean Challenge
+20. DIY XRay and atomic force microscopy, DIY gamma ray spectroscopy
+21. Chem printers
+22. Tomographic 3d printers
+23. FDM and SLA and SLS 3d printers
+24. Hobby CNC machines
+25. Counter Culture Labs insulin
+26. DIY HRT
+27. CRISPR, mRNA vaccines
+28. Electrification of all the things
+29. Facial recognition
+30. OpenSource "grants" by corporations
+31. Recycling is fake
+32. Mushroom leather and mushroom architecture
+33. Carbon Capture XPrize
+34. Systems on a chip
+35. Predictive policing
+36. Anti-monopoly discourse vs. super-regulation brain washing tech discourse
+37. Agricultural robots
+38. Food prep robots
+39. Aging popultions, declining birth rates, longer lives
+40. Tech bank failures
+41. Commercial drone warfare
+42. Dirct air electrolyzers that pull hydrogen out of the air
+43. Kraken SDR
+44. Metamaterials
+45. Machine-learning producing new science that we don't understand
+46. Inflation-adjusted engineering salaries dropping
+47. Workplace brain scanning
+48. Healthcare AI
+49. App-based healthcare diagnosis
+50. Return of the airship
+51. Small commercialized VTOL/transport drones
+52. Crypto systems for IDs, data records, etc.
+53. Starlink and kin
+54. AI that's secretly a mechanical turk
+55. Exploited poor and 3rd world tech workers unionizing
