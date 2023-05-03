@@ -58,3 +58,11 @@ OPEN QUESTION: how can the inference systm cope with changing truths?
 POSSIBLE ANSWER: have some kind of linear or temporal reasoning
 
 OPEN QUESTION: how can the knowledge representation avoid re-calculating all the truths when the world changes?
+
+IDEA: lazy enrichment of NPC lives? there are some things that pretty much everyone does in the world that is visible externally to us
+for instnace going from place to place, eating food, talking to others, reading their phone, etc etc. That is relatively simple and easy
+to implement for all NPCs. but the details of who they are, what they're doing, why, where they're going, what they're reading or talking
+about, etc. is harder to do all at once, from the outset of the game. perhaps instead, this kind of information can be generated on the
+fly, lazily enriching the NPCs as needed, in response to the user. for instance, an NPC that is just walking around need not have a given
+destination. but if the NPC is followed, or seen multiple times, it could be useful to generate a destination, fleshing out a little bit
+of their life because the player might *see* that extra bit of their life.
