@@ -169,4 +169,6 @@ What should we speculate about in this game?
 67. Microplastics
 68. Vertical urban farming
 69. Microchips made out of conductive gel that are growable inside living tissue
-70. MXene might enable super-supercapacitors, is impermeable to EM radiation, is ultra durable 
+70. MXene might enable super-supercapacitors, is impermeable to EM radiation, is ultra durable
+71. Shrinking hand sensors for input
+72. Edible computer chips in pills that can alter body chemistry
