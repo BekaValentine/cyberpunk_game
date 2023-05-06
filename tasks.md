@@ -121,7 +121,9 @@ Desert arcology? maybe NEOM?
 
 SF Mission involving Hunters Point radiation, maybe?
 
-Crumbling US infrastructure leading to disasters that get covered up, etc. creating badlands.
+Crumbling US infrastructure leading to disasters that get covered up, etc. creating badlands., emergence of walkaway-like communities.
+
+Homelessness crisis worsens, NEET population explodes and is forced into greater poverty, Sanctuary Districts emerge as a policy decision in California and other liberal states
 
 Climate refu housing that has all sorts of DRM-enforced auto-lockouts for rent payment failures, plus lots of onerous debt to get a spot
 
