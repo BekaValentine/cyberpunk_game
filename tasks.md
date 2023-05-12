@@ -84,7 +84,7 @@
     - [x] Walk
     - [x] Run
     - [x] Crouch
-    - [ ] Stairs
+    - [x] Stairs
   - [ ] Character generator
     - Ethnicity
     - Name
