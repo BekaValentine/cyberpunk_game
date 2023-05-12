@@ -146,7 +146,7 @@ Spec out how the player gets mission assignments. Obviously in the parts of the 
 
 It ought to be able to play this game in a highly branching-path manner. Main branches should be:
 
-1. Stay corporate
+1. Stay corporate (SEE CORP NOTE BELOW)
 2. Work for a non-violent underground (compatible with (1) until you get caught)
 3. Work for a violent underground (compatible with (1) and (2) until you get caught)
 
@@ -173,6 +173,8 @@ Different paths all must be able to intersect w/ main story beats -- how depends
 Observation: Movement between paths is not entirely up to the player unless that's desired. In some sense, there are certain changes which can be made at the player's choosing -- for instance, killing Anna Navarre in DX -- but other changes are in the hands of others -- for instahce, UNATCO JC an enemy after he sends the signal to Silhouette. If it's necessary to force th player down a path, that can be used: constrain the context of the player character.
 
 Fraudulent or buggy high tech shit that fuck people over (predictive policing AI like mentioned before, but also things like shot spotter and other analogous things like facial recognition etc)
+
+CORP NOTE: If you stay corporate, then you don't just remain as a pentester/etc. Your loyalty and skill lets the company trust you more so you're increasingly brought into higher value jobs that involve providing discrete "solutions" for high paying clients involving recovery of their secrets, stealing things for them, etc. Classic cyberpunk corporate espionage type stuff.
 
 ## Task Rambles
 
