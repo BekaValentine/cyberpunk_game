@@ -1,4 +1,4 @@
-This is a WIP cyberpunk game inspired by, and intended as an alternative prequel to, Deus Ex.
+This is a WIP cyberpunk game inspired by, and intended as a spiritual alternative prequel to, Deus Ex.
 
 This repo tracks the project management stuff.
 
