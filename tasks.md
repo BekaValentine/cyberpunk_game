@@ -104,10 +104,19 @@
 This kind of game should provide choice and consequence, main quests and side quests, within the context of IMPLICIT QUESTIONS about the players VALUES. A choice should REFLECT VALUES. So what are the questions/values?
 
   - What's more important, Doing The Right Thing, or Following The Rules?
+  - How important is it to get Permission To Act?
   - Do the Needs Of The Many outway the Needs Of The Few/One?
   - What's more important, Principles or Wealth?
   - What's more important, People or Corporations/Property?
   - What's more important, Doing The Right Thing even if it cost you, or Ignoring Bad Things but keeping yourself safe?
+  - When confronted with injustice (either a personal injustice or an unjust system), do you Try To Make The World Better or do you Keep Your Head Down And Survive?
+
+These questions should frame the overall plot and motivate sub-plots. We should achieve that by forcing the player to make a choice, implicitly, about these questions. That means we need to...
+
+  1. Expose the player to the event/situation that implicitly raises a question
+  2. Make it explicit that there is a way for the player to interact with the situation
+  3. Allow the player the space to choose to interact or not
+  4. Show the consequences of each choice
 
 Babylon 5 had a series of questions too, which represented the things that each culture valued most, and which drove their greater outlook and interactions with the universe:
 
