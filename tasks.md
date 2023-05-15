@@ -50,7 +50,7 @@
       - [x] Related real-world corporations
       - [x] Names
       - [x] Details/Product Types
-  - [-] Main plot outline / story beats
+  - [ ] Main plot outline / story beats
   - [ ] Characters
     - [ ] PC and family/friends
     - [ ] Hackerspace folx
@@ -58,6 +58,8 @@
     - [ ] Major corporate figures
       - CEO for each company
       - CFO for each company
+      - CTO for each company
+      - CISO for each company
       - Main researchers/developers
 - Production
   - [ ] Main Menu v0
