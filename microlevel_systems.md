@@ -148,6 +148,20 @@ On the other hand, one thing that definitely will require the player to do somet
 
 This presents a few possibilities for portraying hacking: because its computery, we can obviously choose to do it realistically. Finding out what to hack is portrayed precisely as it its done in the real world. That's obviously going to play some role already, when that information is external to the system. But what about when the information is *internal* to the system? A realistic portrayal here is also of course possible. But alternatively, we can stylize it, make it very aesthetically novel or symbolic, for instance the way Johnny Mnemonic portrays cyberspace.
 
+### DESIGN PROPOSAL
+
+Here's one option for the design of the hacking sub-system: use a very spatial metaphor for the network structure. Accessing another computer system directly is being in a space, and moving from one computer to another over the network is a spatial relocation through visuo-spatial "portals" or "doors" or whatever. They can be stylized to indicate the computer they correspond to.
+
+Communicating with a computer through multiple hops is a series of open portals from your computer through the bridge computers to the final computer you're using, and that's visually present somehow. That should partially involve spatial representations, eg seeing through portals, coloring them by "forward" and "backward", but also by some kind of visual map on the screen maybe.
+
+To get a direct portal, you need to somehow get a backdoor into the system or get the net location of the system, but once you do, you can directly connect without using bridge nodes.
+
+Each computer presents a variety of tools available to it, as spatialized mostly-2d UIs.
+
+Other computers that are connected to a given computer are represented as portals, but possibly as unknown type, so you might have to interact with them to learn what they are. Networks are not first-class objects, they're things connected to router computers.
+
+Authentication/permissions can be represented by symbolic locks and keys, and unless an authentication action has happened, the portals remain locked. Changing permissions are represented by changing lockedness. Loss of access is represented by spatial movement back through the sequence of portals to the last accessible space.
+
 ### Virtual Exploration
 
 But, just how *does* hacking work in the real world when you have to explore a system to find out where things are?
@@ -195,7 +209,7 @@ Johnny Mnemonic uses a SEEMINGLY heavy spatial metaphor. Cyberspace is a *place*
 4. Use Beijing Hotel's UI, hack it to get internal access
 5. Use the hotel's UI to find the telecom subsystem and move into the fax system
 6. Select the fax machine for the room and check its call log to find the recipient of the fax, a copy shop in Newark
-7. Move over to the copy shops computers
+7. Move over to the copy shops computers -- the internal network is represented as a 2d map of the shop and its computers
 8. Check the copyshop computer's fax buffer, get the name Dr Allcome
 9. Try to contact Strike, security won't let the connection through, so hack it
 10. Strike has no information about Allcome knows that the data in Johnny's head is Pharmakom
