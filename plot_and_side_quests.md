@@ -1,5 +1,64 @@
 # Plot and Side Quests
 
+A recap of the main questions of the game:
+
+  - What's more important, Doing The Right Thing, or Following The Rules?
+  - How important is it to get Permission To Act?
+  - Do the Needs Of The Many outway the Needs Of The Few/One?
+  - What's more important, Principles or Wealth?
+  - What's more important, People or Corporations/Property?
+  - What's more important, Doing The Right Thing even if it cost you, or Ignoring Bad Things but keeping yourself safe?
+  - When confronted with injustice (either a personal injustice or an unjust system), do you Try To Make The World Better or do you Keep Your Head Down And Survive?
+
+What is the relationship between these?
+
+Most important is:
+
+When confronted with an unjust system, do you Try To Make The World Better or do you Keep Your Head Down And Survive?
+
+Subsidiary to that, which can motivate sub-quests as a leadup to the main quest, is:
+
+- When confronted with a personal injustice, do you Try To Make The World Better or do you Keep Your Head Down And Survive?
+
+Subsidiary to all of these, serving them, are the questions
+
+  - What's more important, Doing The Right Thing, or Following The Rules?
+  - How important is it to get Permission To Act?
+  - Do the Needs Of The Many outway the Needs Of The Few/One?
+  - What's more important, Principles or Wealth?
+  - What's more important, People or Corporations/Property?
+  - What's more important, Doing The Right Thing even if it cost you, or Ignoring Bad Things but keeping yourself safe?
+
+We can collapse some of these probably like so:
+
+  Q: How important is it to get Permission To Act?
+  
+  folds into
+
+  Q: What's more important, Doing The Right Thing, or Following The Rules?
+
+  because Acting is the Right Thing, asking permission is Following The Rules
+
+  similarly
+
+  Q: What's more important, Doing The Right Thing even if it cost you, or Ignoring Bad Things but keeping yourself safe?
+
+  folds into the main two questions
+
+The remainders are choices between two conflicting values. So:
+
+  - What's more important, Doing The Right Thing, or Following The Rules?
+    - Right Thing = acting to make the world better
+    - Following The rules = obeying the law, getting permission from people in authority
+  - Other versions of what's more important?
+    - Principles vs Wealth
+    - People vs Corportions/Property
+    - Needs of the Many vs Needs of the Few/One (this should always be secretly a false dichotomy!)
+
+Most plot subquests should ask a Doing The Right Thing kinds of questions, sometimes multiple at once.
+
+Many plot subquests should ask AT LEAST ONE Other Whats More important questions as well.
+
 ## Main Plot
 
 The main plot is about the character progressing through their arc from a Hack Not Crime sort of person, who believes that hacking can be a pure and innocent thing that simply involves security, and eventually becomes radicalized into believing that hacking is inherently criminalized and that the only way to liberate people is to fight capitalism's excesses.

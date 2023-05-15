@@ -50,7 +50,7 @@
       - [x] Related real-world corporations
       - [x] Names
       - [x] Details/Product Types
-  - [ ] Main plot outline / story beats
+  - [-] Main plot outline / story beats
   - [ ] Characters
     - [ ] PC and family/friends
     - [ ] Hackerspace folx
