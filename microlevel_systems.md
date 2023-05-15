@@ -87,6 +87,51 @@ class ExplosiveBarrel(Entity):
         self.die()
 ```
 
+## Similarities in Hacking, Covert Entry, and Social Engineering
+
+- Trust relates to Privileges relates to Capabilities
+- Lack of trust is not necessarily obvious, suspicion is not necessarily obvious
+- Patterns of behavior/action affect trust/suspicion
+
+The general process of gaining access in both cases is often quite similar:
+
+1. Gather information given your current access. This can be information about people, places, things. Information that's relevant includes things like how to communicate with the thing, how it works internally so as to find vulnerabilities, secret information, non-secret information that allows cover stories to work better, etc.
+2. Using information to establish trust/privileges/capabilities. EG getting a person to trust you, or want to help you, or need you to help them, or alternatively authenticating with a computer as a certain user, etc., or alternatively using a key to get through a door.
+3. Using trust/privileges/capabilities to cause actions that further your goals. For instance, making a request to a person, asking for information, issuing a command to a system, or plugging a device into a computer in a locked room.
+4. Goto 1 if necessary
+
+All these domains have different levels of "typical behavior" that can affect suspiciousness/trust:
+
+- Computer systems can monitor for statistically anomalous behavior, or behavior that security software knows is typical of an attack.
+- Physical systems can monitor for specific trips, for instance a security camera or motion detector or smart card reader looking for too many failed badge-ins
+- Social systems look for all sorts of things. See below for Mitnick's list.
+
+These systems are also not separate! Getting a person to trust you can be used to get access to a computer system. Or, getting access to a computer system can get a physical system to trust you. Or, getting access to a physical system can get a person to trust you. Or any other combination! There's nine total: {Person, Physical, Computer} * {Person, Physical, Computer}
+
+### Ways of modelling security issues
+
+A way to think about these phenomena can be seen from the following example:
+
+A telephone operator at the telephone exchange will treat anyone who calls in on a specific phone line as trusted, because that phone line is connected only to certain phones that are all in secure locations. Those locations are secure because you need keys to the locks in order to get in. Those keys are only distributed to certain people with specific roles and permissions. Therefore, anyone calling the in on the phone line must have certain privileges, and is therefore trusted.
+
+Trust Phone Line ---> Trusted Phones
+Trusted Phones ---> Secured Rooms
+Secured Rooms ---> Keys to Locks
+Keys to Locks ---> Trusted Person
+
+Each of these steps is a false assumption. E.G. "only trusted people have keys to these locks" (ie if X has key to Y then X is trusted).
+
+Therefore, if you want to be a trusted person in the eyes of the phone operator, it suffices to call the trusted phone line, by getting access to the trusted phones, by getting into the trusted rooms, by getting a key to the locks.
+
+The inference stems partially from the reverse capability inferences. For instance: if key K matches lock L then you can use K on L to open L.
+
+It also stems from an assumption of exclusive intention -- not only X can cause Y, but only X can cause Y.
+
+VULNERABILITIES are when "only X can cause Y" is false.
+
+ERRORS and TRAPS are when "X can cause Y" is false.
+
+
 ## Hacking
 
 Hacking is basically never done by real hackers sitting at the computer to hack, it's almost always over the network. This is ignoring the aspects of hacking that involve access to devices to sniff data, eg physical keyloggers, etc.
@@ -121,9 +166,6 @@ What if there are multiple sub-networks? Well there's two ways this could look.
 2. Physically separate networks with bridging computers. In this case, you talk to the secure devices through the bridging computer. This itself could take a few different forms:
    1. If the bridging computer acts as a forwarding node, then it might pretend to be the entire secure network, and map each of the secure computers to a port on its IP address on the insecure side. It might then require some kind of authentication to accept incoming messages to the secure side.
    2. Alternatively, the bridging computer might merely be on two networks, the insecure one and the secure one. In this case, connecting to the secure network requires finding a way to talk to the bridging computer so that it'll let you somehow send messages out. For instance, if you can get a low-privilege user's shell on the bridge and then use privilege escalations on the bridge to get a high-privilege user's shell that can talk to the secure side.
-
-
-
 
 ## Covert entry
 
@@ -185,7 +227,44 @@ What if there are multiple sub-networks? Well there's two ways this could look.
 
 ## Social engineering
 
-!!!!TODO
+Some general kinds of SE methods:
+
+- Manipulate existing trust mechanisms
+  - Human trust systems with easily-broken security/recognition
+    - Interactive
+      - Posing as a fellow employee
+      - Posing as an employee of a vendor, partner company, or law enforcement
+      - Posing as someone in authority
+      - Posing as a new employee requesting help
+      - Posing as a vendor or systems manufacturer calling to offer a system patch or update
+      - Using insider lingo and terminology to gain trust
+      - Pretending to be from remote office and asking for email access locally
+      - Offering help if a problem occurs, then making the problem occur, thereby manipulating the victim to call them for help
+      - Getting a voice mailbox set up so callbacks perceive attacker as internal
+      - Modifying fax machine heading to appear to come from internal location
+      - Asking for a file to be transferred to an apparently internal location
+    - Non-interactive
+      - Sending free software or patch for victim to install
+      - Sending a virus or Trojan Horse as an email attachment
+      - Using a false pop-up window asking user to log in again or sign on with password
+      - Leaving a floppy disk or CD around the workplace with malicious software on it
+      - Offering a prize for registering at a Web site with username and password
+      - Dropping a document or file at company mail room for intraoffice delivery
+  - Non-human trust systems (ie a human or computer trusts a device, the device is vulnerable physically)
+    - Capturing victim keystrokes with expendable computer system or program
+    - Asking receptionist to receive then forward a fax
+
+### Mitnick's List of Warning Signs of an SE Attack
+
+- Refusal to give callback number
+- Out-of-ordinary request
+- Claim of authority
+- Stresses urgency
+- Threatens negative consequences of noncompliance
+- Shows discomfort when questioned
+- Name dropping
+- Compliments or flattery
+- Flirting
 
 ## Stealing information or objects
 

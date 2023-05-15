@@ -13,11 +13,11 @@
   - [x] Setting
     - [x] Historical outline
     - [x] Rough maps
-  - [ ] Activities outlines
-    - [ ] Microlevel (see [microlevel_systems.md](microlevel_systems.md))
+  - [x] Activities outlines
+    - [x] Microlevel (see [microlevel_systems.md](microlevel_systems.md))
       - [x] Hacking
       - [x] Covert entry
-      - [ ] Social engineering
+      - [x] Social engineering
       - [x] Stealing information or objects
       - [x] Planting information or objects
       - [x] 3d printing (wet, dry)
