@@ -164,7 +164,9 @@ Authentication/permissions can be represented by symbolic locks and keys, and un
 
 The file system of a computer is represented metaphorically as 3d locations within a given space, like hallways and rooms. Each computer's internal environment is themed to that computer or corporation or the virtual environment product branding or whatever. The sub-environments might be customized to the user or purpose of the sub-environment. User accounts are different "regions" of an environment, accessed through non-euclidean spatial portal rooms (a kind of user directory). Files (not directories) are objects.
 
-Tools that can be used on a computer are in a virtual backpack or toolbelt. Some tools can be installed onto a computer, data can be placed onto computers, by putting it into the internal spatial environment for that location. Similarly, data/software can be copied _from_ a computer in the same way. Things like keys, etc. are data and so can be copied.
+Tools that can be used on a computer are in a virtual backpack or toolbelt. Some tools can be installed onto a computer, data can be placed onto computers, by putting it into the internal spatial environment for that location. Similarly, data/software can be copied _from_ a computer in the same way.
+
+Things like keys, etc. are data and so can be copied. User passwords are objects, SSH keys are objects, etc. Passwords tend to not be lying around, but the locks are "pickable" with the right tools. SSH keys often exist within a user's space and thus can be copied, tho.
 
 Running programs are just objects in (multiple) places (the open file/dir handles). Non-running programs are objects in a single place. A program runs when it's interacted with and spawned, whereupon a copy is animated as "spawning" and then it starts moving around through the system.
 
