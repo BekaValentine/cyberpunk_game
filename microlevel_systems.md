@@ -131,6 +131,12 @@ VULNERABILITIES are when "only X can cause Y" is false.
 
 ERRORS and TRAPS are when "X can cause Y" is false.
 
+The vulnerability inference seems to be related to the formal fallacy called Affirming The Consequence:
+
+1. If A, then B.
+2. B.
+3. Therefore A.
+
 
 ## Hacking
 
@@ -227,6 +233,8 @@ What if there are multiple sub-networks? Well there's two ways this could look.
 
 ## Social engineering
 
+Abstractly, SE is basically about establishing *trust* ie getting someone to trust you, and then using that "access" to get information or whatever. Additionally, it involves manipulating the thresholds required to establish trust.
+
 Some general kinds of SE methods:
 
 - Manipulate existing trust mechanisms
@@ -253,6 +261,40 @@ Some general kinds of SE methods:
   - Non-human trust systems (ie a human or computer trusts a device, the device is vulnerable physically)
     - Capturing victim keystrokes with expendable computer system or program
     - Asking receptionist to receive then forward a fax
+  
+### How to people determine trustworthiness?
+
+Categories of trustedness! E.G. "fellow employee", "police officer", "authorized technician", etc.
+
+How are categories attributed to people? By reasoning off appearances and other known information. For example:
+
+1. X called in on phoneline L
+2. Anyone who calls on phoneline L has physical access to phone P
+3. Anyone who has physical access to phone P has key K
+4. Anyone who has key K has authorization level Z
+5. Therefore, X has authorization level Z
+
+Or more compressed (more likely in real world settings):
+
+1. X called in on phoneline L
+2. Anyone who calls in on phoneline L has authorization level Z
+3. Therefore, X has authorization level Z
+
+### How are thresholds for establishing trust manipulated?
+
+The above kinds of inferences can often involve heuristical parts that are vulnerable. For instance, suppose we have an inference like
+
+1. X is wearing a courier's uniform
+2. X is carrying boxes
+3. Anyone wearing a courier's uniform is probably a courier
+4. Anyone carrying boxes might be a courier
+5. Therefore X is probably a courier (for two reasons)
+6. Anyone who is a courier has authorization to access premises
+7. Therefore X has authorization to access premises
+
+Principles 3 and 4 here are extremely heuristical and can be gamed. The conclusion of each is more likely to be arrived at under certain conditions, and subject to manipulation.
+
+But how do these kinds of heuristics get manipulated? Time pressure is an example of a common one, but really it comes down to a rough estimate of the likelihood that the conclusion is wrong, and the magnitude of consequences of false positive and false negative conclusions. That is to say, different choices (esp. permission-granting) can be assigned quantities of risk to the agent (risk determined by confidence of reasons + knowledge of consequences), and the one with the least risk is chosen.
 
 ### Mitnick's List of Warning Signs of an SE Attack
 
