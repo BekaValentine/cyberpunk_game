@@ -101,6 +101,23 @@
 
 ## MAJOR TODO
 
+This kind of game should provide choice and consequence, main quests and side quests, within the context of IMPLICIT QUESTIONS about the players VALUES. A choice should REFLECT VALUES. So what are the questions/values?
+
+  - What's more important, Doing The Right Thing, or Following The Rules?
+  - Do the Needs Of The Many outway the Needs Of The Few/One?
+  - What's more important, Principles or Wealth?
+  - What's more important, People or Corporations/Property?
+  - What's more important, Doing The Right Thing even if it cost you, or Ignoring Bad Things but keeping yourself safe?
+
+Babylon 5 had a series of questions too, which represented the things that each culture valued most, and which drove their greater outlook and interactions with the universe:
+
+  - Who are you? (Vorlons)
+  - What do you want? (Shadows)
+  - Why are you here? (Emperor Turhan)
+  - Where are you going? (Techno Mage)
+  - Do you have anything worth living for? (Lorien)
+  - Who do you serve, and who do you trust? (Human)
+
 Make the game more DX-illuminati focused
   NO! More conspiratorial, sure, but the illuminati and other canonical conspiracy theories should be treated like quaint fantasies and excuses for people who want easy solutions to their problems, and people who want a cover for their actually bad behavior (ala Echelon)
 
