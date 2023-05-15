@@ -63,8 +63,9 @@
       - Main researchers/developers
 - Production
   - [ ] Main Menu v0
-    - Prototypes
-      - Interactions
+    - [ ] Prototypes
+      - [x] Interactions
+      - [ ] Locks and Doors
   - [ ] UI
     - [ ] Menus
     - [ ] Backpack - non-diagetic UI
