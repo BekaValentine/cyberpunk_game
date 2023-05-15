@@ -150,7 +150,7 @@ This presents a few possibilities for portraying hacking: because its computery,
 
 ### DESIGN PROPOSAL
 
-Here's one option for the design of the hacking sub-system: use a very spatial metaphor for the network structure. Accessing another computer system directly is being in a space, and moving from one computer to another over the network is a spatial relocation through visuo-spatial "portals" or "doors" or whatever. They can be stylized to indicate the computer they correspond to.
+Here's one option for the design of the hacking sub-system: use a very spatial metaphor for the network structure. Accessing another computer system directly is being in a space, and moving from one computer to another over the network is a spatial relocation through visuo-spatial "portals" or whatever. They can be stylized to indicate the computer they correspond to. They ought to look special tho, different from mere spatial doorways.
 
 Communicating with a computer through multiple hops is a series of open portals from your computer through the bridge computers to the final computer you're using, and that's visually present somehow. That should partially involve spatial representations, eg seeing through portals, coloring them by "forward" and "backward", but also by some kind of visual map on the screen maybe.
 
@@ -160,7 +160,17 @@ Each computer presents a variety of tools available to it, as spatialized mostly
 
 Other computers that are connected to a given computer are represented as portals, but possibly as unknown type, so you might have to interact with them to learn what they are. Networks are not first-class objects, they're things connected to router computers.
 
-Authentication/permissions can be represented by symbolic locks and keys, and unless an authentication action has happened, the portals remain locked. Changing permissions are represented by changing lockedness. Loss of access is represented by spatial movement back through the sequence of portals to the last accessible space.
+Authentication/permissions can be represented by symbolic locks and keys, and unless an authentication action has happened, the portals remain locked. Changing permissions are represented by changing lockedness. Loss of access is possibly represented by spatial movement back through the sequence of portals to the last accessible space or by sudden blasts of info-noise.
+
+The file system of a computer is represented metaphorically as 3d locations within a given space, like hallways and rooms. Each computer's internal environment is themed to that computer or corporation or the virtual environment product branding or whatever. The sub-environments might be customized to the user or purpose of the sub-environment. User accounts are different "regions" of an environment, accessed through non-euclidean spatial portal rooms (a kind of user directory). Files (not directories) are objects.
+
+Tools that can be used on a computer are in a virtual backpack or toolbelt. Some tools can be installed onto a computer, data can be placed onto computers, by putting it into the internal spatial environment for that location. Similarly, data/software can be copied _from_ a computer in the same way. Things like keys, etc. are data and so can be copied.
+
+Running programs are just objects in (multiple) places (the open file/dir handles). Non-running programs are objects in a single place. A program runs when it's interacted with and spawned, whereupon a copy is animated as "spawning" and then it starts moving around through the system.
+
+Actively running programs are represented as little creatures or robots or abstract gadgets, and the files theyre accessing are represented by their avatars being present in that place visually. Files being accessed are represented by "tendrils" or beams of light touching their representations in space. But you can't always *see* them because you need permissions to view the processes of the system, etc. The ability to see that information requires access to the parts of the system with the various command tools, ie you need access to "control rooms" etc. that let you access information that is then overlaid onto your normal vision of the space. Deactivating monitoring tools is a kind of interaction with a virtual object.
+
+Everything above should be understood as a representation of fundamentally non-visual stuff underlyingly. Even if that underlying stuff is never shown, it should be understood. Having a reference for what the textual shell looks like that the above cyberspace shell corresponds to is useful. For instance, being in a location and looking around is `ls`, walking through a door is `cd $DESTINATION`, inspecting an object is `file $FILE`, interacting with a file with tools is `$TOOL $FILE`, interacting with a running program is some kind of inter-process communication, unlocking a door and walking through is `login $USER $PASSWORD && cd ~$USER`, etc. Some of this underlying architecture should be fleshed out, and we shouldn't used standard *nix architecture but something more rich and structured as inspiration like VMS.
 
 ### Virtual Exploration
 
