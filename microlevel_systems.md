@@ -173,6 +173,74 @@ What if there are multiple sub-networks? Well there's two ways this could look.
    1. If the bridging computer acts as a forwarding node, then it might pretend to be the entire secure network, and map each of the secure computers to a port on its IP address on the insecure side. It might then require some kind of authentication to accept incoming messages to the secure side.
    2. Alternatively, the bridging computer might merely be on two networks, the insecure one and the secure one. In this case, connecting to the secure network requires finding a way to talk to the bridging computer so that it'll let you somehow send messages out. For instance, if you can get a low-privilege user's shell on the bridge and then use privilege escalations on the bridge to get a high-privilege user's shell that can talk to the secure side.
 
+### Defense
+
+Defense can involve monitoring system activity, looking for anomalies, determining the route into a particular computer, and tracing it back to other computers either forward or backward in time, deeper into the attack or further out to the outskirts of the computer network.
+
+Also, hacking back is an interesting phenomenon. Various options exist but fundamentally the problem is about trying to find out who's attacking, and where they're attacking from, so that their own systems can be messed with. This can involve things like tracing where exfiltrated data is sent, hacking that system, looking in logs for forwarding, etc.
+
+### Johnny Mnemonic Sequences
+
+Johnny Mnemonic uses a SEEMINGLY heavy spatial metaphor. Cyberspace is a *place*. But it's actually just a fancy UI environment that brings up mostly 2D interfaces.
+
+#### Johnny Mnemonic Cyberspace Sequence
+
+1. Log into network
+2. Play with tetrahedron???
+3. Select map and use it to dial the Beijing Hotel's network
+4. Use Beijing Hotel's UI, hack it to get internal access
+5. Use the hotel's UI to find the telecom subsystem and move into the fax system
+6. Select the fax machine for the room and check its call log to find the recipient of the fax, a copy shop in Newark
+7. Move over to the copy shops computers
+8. Check the copyshop computer's fax buffer, get the name Dr Allcome
+9. Try to contact Strike, security won't let the connection through, so hack it
+10. Strike has no information about Allcome knows that the data in Johnny's head is Pharmakom
+
+This reasonably involves things like:
+
+- Information lookup/directory services
+  - Map for hotel
+  - Hotel-internal system map to locate telecom system
+- Movement between sub-systems, or access of sub-UIs
+  - Hotel directory -> hotel telecom system -> particular fax machine
+- Movement between macro systems
+  - Switching from hotel UI to copyshop UI
+  - Switching from copyshop UI to Strike's board UI
+
+This presupposes lots of stuff is just computers on networks. Plausible these days! Also presupposes that instead of big complicated integrated systems, everything is components on networks, systems and subsystems.
+
+The Johnny Mnemonic UI is especially semantically rich. The Beijin Hotel map is somewhat sensible given Google Maps, but what about the internal UI? It has a metaphorical map of the subsystems with semantically useful information -- room number for each fax machine.
+
+### Hackers Sequences
+
+Hackers presents things in terms of computer UIs, some of them conventional, like the MacOS-based school UI, and some of them less conventional, like the OTV UI.
+
+#### Hackers OTV Hack Sequence
+
+1. Dade SE's his way into getting a number for a computer on the network.
+2. Dade dials into the computer, which controls whats on the air
+3. Change the video
+
+#### Hackers School Fire Suppressant System Sequence
+
+1. Log into highschool computer
+2. Access the Network Control tool
+3. Browse networks and find the Fire network and select it -- each network is visualized spatially as a 3d map of the system
+4. In the tool, change the settings on the network
+
+### The Net Sequences
+
+The Net also has normal UI-oriented hacking, with unconventional but plausible UIs, also presenting spatial information when necessary.
+
+#### Getting Into Bennett's Computer
+
+1. Locate the computer by SE-ing the target into revealing her location in the building
+2. Access the building's internal infrastructure system
+3. Access the fire subsystem -- building is visualized as a 3d map + floors
+4. Access the appropriate floor of the building -- visualized as a map of the floor
+5. Select a fire detector and trigger it
+6. Wait for target to evacuate
+
 ## Covert entry
 
 - physical
