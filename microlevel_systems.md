@@ -179,6 +179,10 @@ Defense can involve monitoring system activity, looking for anomalies, determini
 
 Also, hacking back is an interesting phenomenon. Various options exist but fundamentally the problem is about trying to find out who's attacking, and where they're attacking from, so that their own systems can be messed with. This can involve things like tracing where exfiltrated data is sent, hacking that system, looking in logs for forwarding, etc.
 
+### Real Life Example
+
+A common real-like technique is to set up a sequence of machines -- computers, phone switches, whatever -- to forward the commands or signals, thereby creating a harder-to-trace access route. Factors that matter are things like connectivity -- can one node talk to another -- as well permissions -- does one node have access rights on the other.
+
 ### Johnny Mnemonic Sequences
 
 Johnny Mnemonic uses a SEEMINGLY heavy spatial metaphor. Cyberspace is a *place*. But it's actually just a fancy UI environment that brings up mostly 2D interfaces.
