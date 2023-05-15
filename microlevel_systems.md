@@ -89,6 +89,42 @@ class ExplosiveBarrel(Entity):
 
 ## Hacking
 
+Hacking is basically never done by real hackers sitting at the computer to hack, it's almost always over the network. This is ignoring the aspects of hacking that involve access to devices to sniff data, eg physical keyloggers, etc.
+
+Therefore, we can treat hacking as mostly just an automatable piece of software that the hacker uses -- a standard script. The script might require information from the user, but it's not going to require active hacking.
+
+On the other hand, one thing that definitely will require the player to do something is knowing *where* to hack. Just like knowing where to lock pick is important, knowing what computers have necessary resources is part of the task of hacking. Finding and exploring the network space, instead of the physical space.
+
+This presents a few possibilities for portraying hacking: because its computery, we can obviously choose to do it realistically. Finding out what to hack is portrayed precisely as it its done in the real world. That's obviously going to play some role already, when that information is external to the system. But what about when the information is *internal* to the system? A realistic portrayal here is also of course possible. But alternatively, we can stylize it, make it very aesthetically novel or symbolic, for instance the way Johnny Mnemonic portrays cyberspace.
+
+### Virtual Exploration
+
+But, just how *does* hacking work in the real world when you have to explore a system to find out where things are?
+
+A simple case would be one where the thing you want to hack is the thing you're directly connecting to. For instance, a website might have a login form, and you're just directly accessing the site and the form. But another possibility is that the site makes secondary connections to servers via XHR requests. Or alternatively, a program you're using makes network requests to some external computer. In these cases, additional tools, like say a browser's debugging console, or wireshark, let you detect and analyze those hidden interaction points.
+
+But both of those cases involve a program you're using pointing out what other computers its talking to. So in some sense you "already" know the target (you just might only know it implicitly, in virtue of the program knowing it and you controlling the program). What if you don't know where the target is, you just sort of ... know it must logically exist? For instance, a CEO's computer inside the corporate network.
+
+Well, for something like that, you can make plausible predictions about routes to the computer from the outside. For instance, an email to the CEO will likely end up on that computer (tho not always). So one route to that computer might be to phish the CEO, sending an email and hoping the CEO will open the attachment. Once your code is on the computer, it can then call out to your computer and give you access to the CEO's computer.
+
+But that's still pretty direct. What about something like an internal file server? That won't necessarily have anyone opening email on it, so how do you find it? Merely knowing it exists isn't helpful by itself. Instead, you need to get *inside* the network and explore. One route into the network might be the phishing vector. Another might be to connect to the network via wifi or ethernet. If the network isn't secured that might be easy, but if it's secured that requires breaking the security somehow. Either that means wifi hacking, or it means physical penetration to plug in a device into the ethernet and maybe doing network authentication hacking. But once you're in the *network* what do you do?
+
+You have some options for exploring the network you're on:
+
+- nmap: probe every IP address in the networks range to see what ports are open, and then poking the ports to see what kinds of protocol they speak. this is very loud b/c it hits every IP and port, and is likely to trigger security systems!
+- service discovery: use standard "who's there" protocols to find out for some specific protocols whether or not anyone on the network can talk it. this is less loud and is less likely to trigger security systems depending on how many protocols you try
+- packet sniffing: passively monitoring the network to see what messages people are sending and where they sending them, and therefore what devices speak what protocols. this is very quiet but it requires being in a place on the network that receives the packets. on wifi networks, its the same physical space as the packets. on older ethernet networks, this was every computer on the ethernet wire. on modern ethernet networks, you have to have access to the router.
+
+What if there are multiple sub-networks? Well there's two ways this could look.
+
+1. Sub-networks defined by address range, in which case you can't talk to the secure part of the network without convincing the router to let you be on the more secure network. But, routers are just special purpose computers, and so you can talk to it from the insecure network, and maybe hack into the router, and make it trust you and let you talk on the secure network.
+2. Physically separate networks with bridging computers. In this case, you talk to the secure devices through the bridging computer. This itself could take a few different forms:
+   1. If the bridging computer acts as a forwarding node, then it might pretend to be the entire secure network, and map each of the secure computers to a port on its IP address on the insecure side. It might then require some kind of authentication to accept incoming messages to the secure side.
+   2. Alternatively, the bridging computer might merely be on two networks, the insecure one and the secure one. In this case, connecting to the secure network requires finding a way to talk to the bridging computer so that it'll let you somehow send messages out. For instance, if you can get a low-privilege user's shell on the bridge and then use privilege escalations on the bridge to get a high-privilege user's shell that can talk to the secure side.
+
+
+
+
 ## Covert entry
 
 - physical
@@ -149,10 +185,30 @@ class ExplosiveBarrel(Entity):
 
 ## Social engineering
 
+!!!!TODO
+
 ## Stealing information or objects
+
+No special subsystems beyond physical entry etc.
+
+For physical objects, just stashing in your backpack when you physically are able to.
+
+For information, just finding it and recording it on a notebook.
 
 ## Planting information or objects
 
+No special subsystems beyond physical entry etc.
+
+For physical objects, just unstashing from your backpack when you physically are able to.
+
+For information, just entering it into an appropriate input device when needed. E.g. into a computer, a keypad, a radio tuner dial, etc.
+
+In either case, the location it needs to be put into has to be an object that is responsive to this action. For instance, plugging something into a computer requires the computer/port is interactable and when the *target* computer is interacted with, it triggers other things to happen. This is how goals and success are defined in code -- specific objects respond in special ways to specific interactions. We merely represent those as "goals" in English to the player.
+
 ## 3d printing (wet, dry)
 
+3d printing should just be interactions with objects that have special ways to spawn new objects.
+
 ## Diversions (e.g. Burn's flare gun)
+
+A diversion should be just a generic interaction with specific kinds of objects -- NPCs, robots, etc. -- that affect how it pays attention to the world.

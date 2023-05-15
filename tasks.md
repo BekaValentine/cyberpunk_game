@@ -14,14 +14,14 @@
     - [x] Historical outline
     - [x] Rough maps
   - [ ] Activities outlines
-    - [ ] Microlevel
-      - [ ] Hacking
-      - [ ] Covert entry
+    - [ ] Microlevel (see [microlevel_systems.md](microlevel_systems.md))
+      - [x] Hacking
+      - [x] Covert entry
       - [ ] Social engineering
-      - [ ] Stealing information or objects
-      - [ ] Planting information or objects
-      - [ ] 3d printing (wet, dry)
-      - [ ] Diversions (e.g. Burn's flare gun)
+      - [x] Stealing information or objects
+      - [x] Planting information or objects
+      - [x] 3d printing (wet, dry)
+      - [x] Diversions (e.g. Burn's flare gun)
     - [x] Macrolevel
       - Object retrieval
         - Information (eg secrets, dirt, manuals, etc)
