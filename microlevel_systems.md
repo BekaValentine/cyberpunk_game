@@ -174,6 +174,8 @@ Actively running programs are represented as little creatures or robots or abstr
 
 Everything above should be understood as a representation of fundamentally non-visual stuff underlyingly. Even if that underlying stuff is never shown, it should be understood. Having a reference for what the textual shell looks like that the above cyberspace shell corresponds to is useful. For instance, being in a location and looking around is `ls`, walking through a door is `cd $DESTINATION`, inspecting an object is `file $FILE`, interacting with a file with tools is `$TOOL $FILE`, interacting with a running program is some kind of inter-process communication, unlocking a door and walking through is `login $USER $PASSWORD && cd ~$USER`, etc. Some of this underlying architecture should be fleshed out, and we shouldn't used standard *nix architecture but something more rich and structured as inspiration like VMS.
 
+Opening multiple tools simultaneously -- terminal multiplexing so that you can get multiple interactions at once -- is possible but it's spatially tethered. You can only *be in* one place at a time but you can *run* multiple tools at once, which means that your perception of the world is augmented with new things that are visually distinguished.
+
 ### Virtual Exploration
 
 But, just how *does* hacking work in the real world when you have to explore a system to find out where things are?
