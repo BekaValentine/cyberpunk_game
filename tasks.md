@@ -65,7 +65,7 @@
   - [ ] Main Menu v0
     - [ ] Prototypes
       - [x] Interactions
-      - [ ] Locks and Doors
+      - [x] Locks and Doors
   - [ ] UI
     - [ ] Menus
     - [ ] Backpack - non-diagetic UI
@@ -74,20 +74,29 @@
       - [ ] Maps
       - [ ] Messages
       - [ ] Hacking app???
-  - [x] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
-    - [x] Pick up object -- via MANIPULATE
-      - [x] Drop object
-      - [x] Throw object
-    - [x] Push object
-    - [x] Generic Use
-      - Use optional equipped object on world item -- just generic use, passing in the held object to the used object as an argument
-      - Pull object? -- only as an instane of USE
-    - [x] Take object and stash in backpack
-    - [x] Equip object from backpack
-    - [x] Walk
-    - [x] Run
-    - [x] Crouch
-    - [x] Stairs
+  - [ ] Prototypes
+    - [x] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
+      - [x] Pick up object -- via MANIPULATE
+        - [x] Drop object
+        - [x] Throw object
+      - [x] Push object
+      - [x] Generic Use
+        - Use optional equipped object on world item -- just generic use, passing in the held object to the used object as an argument
+        - Pull object? -- only as an instane of USE
+      - [x] Take object and stash in backpack
+      - [x] Equip object from backpack
+      - [x] Walk
+      - [x] Run
+      - [x] Crouch
+      - [x] Stairs
+    - [x] Locks and Doors Prototype
+      - [x] Class for interactable or holdable or stashable objects
+      - [x] One lock type
+      - [x] Two key types
+      - [x] A basic door demo
+      - [x] A basic window demo
+    - [x] Ladder Prototype
+    - [ ] AI Pathfinding Prototype - see [AI ideas](ai_ideas.md)
   - [ ] Character generator
     - Ethnicity
     - Name

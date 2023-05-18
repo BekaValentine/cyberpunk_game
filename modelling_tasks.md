@@ -35,6 +35,11 @@ There is some logic to some of this. Namely, we can determine what objects need 
       - [ ] Sewers / Tunnels
       - [ ] Janitors closets
 - [ ] Objects
+  - [ ] Building Infrastructure
+    - [ ] Doors (Hinged vs. Sliding; Single vs. Double; Windows vs. None; different materials)
+      - [ ] Sub-types needed
+    - [ ] Windows (Hinged vs. Sliding)
+      - [ ] Sub-types needed
   - [ ] Furniture (ish)
     - [ ] Seating
       - [ ] Sofa/Couch
