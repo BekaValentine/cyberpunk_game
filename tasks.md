@@ -96,6 +96,7 @@
       - [x] A basic door demo
       - [x] A basic window demo
     - [x] Ladder Prototype
+      - [x] Make it possible to jump to attach to a ladder
     - [ ] AI Pathfinding Prototype - see [AI ideas](ai_ideas.md)
   - [ ] Character generator
     - Ethnicity
