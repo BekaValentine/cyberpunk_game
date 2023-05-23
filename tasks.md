@@ -101,21 +101,6 @@
   - [ ] Character generator
     - Ethnicity
     - Name
-    - Abilities (determined by *time* units not "skill points", stuff you have to *practice* not *buy*)
-      - NOTE: alternatively, all of this can be turned into skills that you develop by *doing* stuff in the world
-      - Skill Practice
-        - Lockpicking? - increases chances of success
-      - Physical
-        - Physical strength - increases weights that can be lifted or pushed
-        - Physical stamina - increases the time that exertion can happen for before getting worn out
-        - Hand/Arm dexterity - frequency of fumbles, affects hand-arm based actions' speed to completion by making them taking longer (eg lock stuff, typng, etc.)
-        - Foot/Leg dexterity - frequency of fumbles, affects foot-leg based actions' speed to completion by making them more likely to fail when done too quickly
-        - Quiet movement - reduces amount of noise produced when movement
-        - Quiet breathing - reduces amount of noise produced by presence in a space, and in response to exertion levels
-        - Tactile sensitivity - how sensitive the players hands are to vibrations, etc., decreases rate of errors on hand tasks
-        - Hand-to-hand combat skills
-        - Hand-eye coordination - how precise the players motions are involving interactions based on visible location (ie the reticle), reducing error rates and especially true for weapons/etc.
-        - Hand stillness - how steady the players hands are, how much they wander visually
   - [ ] Vertical Slice to build and test:
     - [ ] 3D modeling and scene building - see modelling_tasks.md
     - [ ] Behaviors / Actions / Interactions
@@ -194,6 +179,28 @@ Spec out how the player gets mission assignments. Obviously in the parts of the 
   - Email? Requires checking it, needs audio alerts. Probably would be phone based anyway. Also a fine option.
   - In person? Very diagetic. Nice way to initiate contact, and offers contextually determined opsec potential.
   - Dead drops, etc.? Very diagretic, a good way to have continued contact over time.
+
+### Experience Points / Skills
+
+XP should be DIAGETIC! You do a thing to improve skill in that thing! But the ramp up in skill should be high so that you don't have to grind. Also the opportunities to do it should be either normal world activity (the more you pick locks to get into places the better you are a picking locks), OR special events like a TOOOL meetup (where you can VERY quickly skill up, and compensate for lack of practice in the field).
+
+Previously the task list had this under the character creator:
+
+- Abilities (determined by *time* units not "skill points", stuff you have to *practice* not *buy*)
+  - NOTE: alternatively, all of this can be turned into skills that you develop by *doing* stuff in the world
+  - Skill Practice
+    - Lockpicking? - increases chances of success
+  - Physical
+    - Physical strength - increases weights that can be lifted or pushed
+    - Physical stamina - increases the time that exertion can happen for before getting worn out
+    - Hand/Arm dexterity - frequency of fumbles, affects hand-arm based actions' speed to completion by making them taking longer (eg lock stuff, typng, etc.)
+    - Foot/Leg dexterity - frequency of fumbles, affects foot-leg based actions' speed to completion by making them more likely to fail when done too quickly
+    - Quiet movement - reduces amount of noise produced when movement
+    - Quiet breathing - reduces amount of noise produced by presence in a space, and in response to exertion levels
+    - Tactile sensitivity - how sensitive the players hands are to vibrations, etc., decreases rate of errors on hand tasks
+    - Hand-to-hand combat skills
+    - Hand-eye coordination - how precise the players motions are involving interactions based on visible location (ie the reticle), reducing error rates and especially true for weapons/etc.
+    - Hand stillness - how steady the players hands are, how much they wander visually
 
 ### BRANCHING PATHS
 
