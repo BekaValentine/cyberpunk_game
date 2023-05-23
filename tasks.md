@@ -101,7 +101,17 @@
   - [ ] Character generator
     - Ethnicity
     - Name
-    - ???
+    - Abilities (determined by *time* units not "skill points", stuff you have to *practice* not *buy*)
+      - Physical strength - increases weights that can be lifted or pushed
+      - Physical stamina - increases the time that exertion can happen for before getting worn out
+      - Hand/Arm dexterity - frequency of fumbles, affects hand-arm based actions' speed to completion by making them taking longer (eg lock stuff, typng, etc.)
+      - Foot/Leg dexterity - frequency of fumbles, affects foot-leg based actions' speed to completion by making them more likely to fail when done too quickly
+      - Quiet movement - reduces amount of noise produced when movement
+      - Quiet breathing - reduces amount of noise produced by presence in a space, and in response to exertion levels
+      - Tactile sensitivity - how sensitive the players hands are to vibrations, etc., decreases rate of errors on hand tasks
+      - Hand-to-hand combat skills
+      - Hand-eye coordination - how precise the players motions are involving interactions based on visible location (ie the reticle), reducing error rates and especially true for weapons/etc.
+      - Hand stillness - how steady the players hands are, how much they wander visually
   - [ ] Vertical Slice to build and test:
     - [ ] 3D modeling and scene building - see modelling_tasks.md
     - [ ] Behaviors / Actions / Interactions
