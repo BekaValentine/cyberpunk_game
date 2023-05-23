@@ -142,6 +142,8 @@ Babylon 5 had a series of questions too, which represented the things that each 
 Make the game more DX-illuminati focused
   NO! More conspiratorial, sure, but the illuminati and other canonical conspiracy theories should be treated like quaint fantasies and excuses for people who want easy solutions to their problems, and people who want a cover for their actually bad behavior (ala Echelon)
 
+  HOWEVER!!! There should still be a driving focus around a big soft-conspiracy of capitalists. The main thrust, perhaps the Big Story, should be about universal constructors and their radical liberatory possibility, and the attempts by capitalists to prevent them from becoming widely available.
+
 Tie DRM and remote shutoffs into the augmentation stuff
   - Backstory here should be cops locking down phones, computers, and augments at protests
   - Optional but beneficial side quests about Copyright Wars and Broadcast Flag style pseudo-secret meetings that you can drop in on
