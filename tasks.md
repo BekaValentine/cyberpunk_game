@@ -74,6 +74,13 @@
       - [ ] Maps
       - [ ] Messages
       - [ ] Hacking app???
+  - [ ] Navigation and Scene Generation Plugin
+    - [ ] Class for navigable objects/regions
+    - [ ] Class for internal nav points
+    - [ ] Class for external nav joint points
+    - [ ] Plugin UI for managing these
+    - [ ] Gizmo for nav points to show what they're connected to
+    - [ ] Tool for composing navigable objects into larger navigable objects
   - [ ] Prototypes
     - [x] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
       - [x] Pick up object -- via MANIPULATE
