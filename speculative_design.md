@@ -120,7 +120,7 @@ What should we speculate about in this game?
 18. Artificial muscles
 19. DARPA Subterranean Challenge
 20. DIY XRay and atomic force microscopy, DIY gamma ray spectroscopy
-21. Chem printers
+21. Chem printers and bioprinters
 22. Tomographic 3d printers
 23. FDM and SLA and SLS 3d printers
 24. Hobby CNC machines
@@ -141,7 +141,7 @@ What should we speculate about in this game?
 39. Aging popultions, declining birth rates, longer lives
 40. Tech bank failures
 41. Commercial drone warfare
-42. Dirct air electrolyzers that pull hydrogen out of the air
+42. Direct air electrolyzers that pull hydrogen out of the air
 43. Kraken SDR
 44. Metamaterials
 45. Machine-learning producing new science that we don't understand
@@ -172,3 +172,4 @@ What should we speculate about in this game?
 70. MXene might enable super-supercapacitors, is impermeable to EM radiation, is ultra durable
 71. Shrinking hand sensors for input
 72. Edible computer chips in pills that can alter body chemistry
+73. AI surveillance that automatically reports protestors https://ipvm.com/reports/dahua-protestor-alarms?code=lfgsdfasd
