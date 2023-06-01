@@ -74,7 +74,7 @@
       - [ ] Maps
       - [ ] Messages
       - [ ] Hacking app???
-  - [ ] Navigation and Scene Generation Plugin
+  - [ ] Navigation and Scene Generation Plugin - see [Nav and Scene Ideas](nav_and_scene_ideas.md)
     - [ ] Class for navigable objects/regions
     - [ ] Class for internal nav points
     - [ ] Class for external nav joint points
@@ -104,7 +104,7 @@
       - [x] A basic window demo
     - [x] Ladder Prototype
       - [x] Make it possible to jump to attach to a ladder
-    - [ ] AI Pathfinding Prototype - see [AI ideas](ai_ideas.md)
+    - [ ] AI Pathfinding Prototype - see [Nav and Scene Ideas](nav_and_scene_ideas.md)
   - [ ] Character generator
     - Ethnicity
     - Name
