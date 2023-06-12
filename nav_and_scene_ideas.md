@@ -19,6 +19,10 @@ The scene can also have ExternalNavLinks which can be used to connect scenes tog
 - Select items, click "create navlink" -> adds new nav link, just an object
 - NavLink gizmo draws lines between objects
 
+TODO:
+
+- use a specific scene root for the design, so that composability information can be stored there and the whole space can be stitched togther with other spaces
+
 ## A Pathfinding Option
 
 We can model the game world as a map defined as a graph of connecte spaces. Each "space" should be a conceptually distinct place, like a floor of a building, maybe a *room* or a single flight of stairs of the landing in a stairwell or whatever.
