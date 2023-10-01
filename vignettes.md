@@ -4,6 +4,10 @@ Vignettes are little snippets of scene from movies, TV shows, pentesting talks, 
 
 Some vignettes are straight examples, while others are counter-examples of what not to do.
 
+## Counterexample: Deus Ex MJ12 Helibase
+
+In the MJ12 helibase mission, it's VERY hard to know where things are. You have to find keys to find keys to find keys and you don't know that they're necessary. The goal -- the helicopter buttons in the second of the two control rooms -- is not obviously stated, so you don't know really what you're aiming to do. The fact that there is a second control room with the same buttons means you can think you succeeded even if you didn't.
+
 ## Counterexample: Watchdogs 2 Keycards
 
 In mission 1 of WD2, you have to get into a server room, and to do this you have to first get a keycard for an RFID reader. Rather than having to find an actual physical keycard in a desk drawer or swipe one from someones belt or copy it from them as they're sitting in the bathroom, or whatever, you have to hack a computer to get the key card info. But rather than having to somehow get access to the computer in any sensible way, you hop from camera to camera and then get access to the computer.

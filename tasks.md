@@ -189,6 +189,8 @@ Spec out how the player gets mission assignments. Obviously in the parts of the 
   - In person? Very diagetic. Nice way to initiate contact, and offers contextually determined opsec potential.
   - Dead drops, etc.? Very diagretic, a good way to have continued contact over time.
 
+Encourage the player to learn from old text files, actual text files from textfiles.com
+
 ### Experience Points / Skills
 
 XP should be DIAGETIC! You do a thing to improve skill in that thing! But the ramp up in skill should be high so that you don't have to grind. Also the opportunities to do it should be either normal world activity (the more you pick locks to get into places the better you are a picking locks), OR special events like a TOOOL meetup (where you can VERY quickly skill up, and compensate for lack of practice in the field).
