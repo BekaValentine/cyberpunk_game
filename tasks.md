@@ -187,9 +187,11 @@ Spec out how the player gets mission assignments. Obviously in the parts of the 
   - Phone? Requires checking it, unless we emphasize the audio ringer/alert noise aspect. But a find option.
   - Email? Requires checking it, needs audio alerts. Probably would be phone based anyway. Also a fine option.
   - In person? Very diagetic. Nice way to initiate contact, and offers contextually determined opsec potential.
-  - Dead drops, etc.? Very diagretic, a good way to have continued contact over time.
+  - Dead drops, etc.? Very diagetic, a good way to have continued contact over time.
 
 Encourage the player to learn from old text files, actual text files from textfiles.com
+
+
 
 ### Experience Points / Skills
 
