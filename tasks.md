@@ -191,7 +191,7 @@ Spec out how the player gets mission assignments. Obviously in the parts of the 
 
 Encourage the player to learn from old text files, actual text files from textfiles.com
 
-
+Educational debt/indenture explosion due to AI/automation requiring shit tonnes of upskilling, with the only real alternative being permanent poverty-level UBI, and the unreal option being permanent unemployment. Walkaway-style communities emerging in counterpoint to this.
 
 ### Experience Points / Skills
 
