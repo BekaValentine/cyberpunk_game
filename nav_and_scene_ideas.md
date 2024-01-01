@@ -1,5 +1,13 @@
 # Navigation/Pathfinding Notes
 
+## Note - README!!!
+
+After careful consideration of the purpose this would have in the game, it
+seems like the current version of the game should not in fact have rich
+navigation.
+
+## Description
+
 Pathfinding almost certainly cannot be done using Godot's navigation tools because of how stairs etc. work.
 
 Probably the right approach is to re-use the player controller mechanism, and simply drive the character in a particular direction based on where they need to move to. Let the in-game physics move them like it moves the player.

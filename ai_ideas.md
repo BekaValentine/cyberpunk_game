@@ -1,3 +1,10 @@
+## Note - README!!!
+
+After careful consideration of the purpose this would have in the game, it
+seems like the current version of the game should not in fact have rich ai.
+
+## Ideas
+
 Character behaviors and responses should be appropriate for the context. A counterexample is: putting a basket on a shopkeeper's head in Skyrim blocks their vision and lets you rob them but they don't notice you doing this and don't take it off.
 
 This can be addressed possibly like so:
