@@ -61,10 +61,6 @@
   - vibration sensors - disable
   - exit sensors - trick them - INT-UNS-NER-OPN
 
-# dimensionalized analysis
-
-
-
 # dimensions
 
 - what's being attacked? ie what do you need access to, in order to use "nonstandardly"
@@ -112,3 +108,32 @@
 - linear relay tripping, momentary switches
 - keyed alike systems
 - drafts, light beams through dust, reveal holes and hidden access ways
+
+#  modelling idea
+
+Actually modelling these systems could be done in a multi-dimensional way, with the dimensions as follows:
+
+- Lock Type (must match in order to work)
+- Attack Type (must match in order to work)
+- Attack Success Base Probability
+- Lock Difficult/Success Probability
+- Auditory and visual actions
+
+Lock types and attack types should form some kind of hierarchy. For instance, you might have locks divided into a hierarchy like so:
+
+- Lock
+  - Pin Tumbler
+    - Schlage
+      - Schlage Bitting Code 12345
+    - American
+  - Combination
+    - Master 175
+    - Dial
+
+A destruction attack would be lock type Lock, and is therefore applicable to all locks. A key with bitting code 12345 will only work for locks pinned the same way. A snapper will be lock type Pin Tumbler and thus work for any lock with pins. Meanwhile a Master 175 attack will only work for Master 175 locks but an impact attack might work for all Combination locks.
+
+So the Lock Type must be a sub-type of the Attack Type in order for the attack to work.
+
+This doesn't have to be a tree, either. The locks themselves could have multiple supertypes.
+
+Probability of opening the lock should depend on a combination of lock difficulty, the base success probability of the attack, and the player's skill level. Some attacks are extremely high probability of success, e.g. snappers, while other attacks are low probability, e.g. picking, but player skill can increase those significantly. A skilled picker can open a hard lock quickly while an unskilled snapper might take a little bit of time.

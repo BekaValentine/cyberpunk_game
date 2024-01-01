@@ -65,7 +65,17 @@
   - [ ] Main Menu v0
     - [ ] Prototypes
       - [x] Interactions
-      - [x] Locks and Doors
+      - [ ] Locks and Doors
+        - [x] Basic Locks and Doors Test
+        - [ ] Tool Acquisition/Pickup
+        - [ ] Door Opening Techniques
+        - [ ] Lock Removal Techniques
+        - [ ] Lock Copying Techniques
+        - [ ] Door Destruction
+        - [ ] Door Hinge Techniques
+        - [ ] RFID use
+        - [ ] RFID bypass
+        - [ ] Sensors
   - [ ] UI
     - [ ] Menus
     - [ ] Backpack - non-diagetic UI
@@ -74,13 +84,7 @@
       - [ ] Maps
       - [ ] Messages
       - [ ] Hacking app???
-  - [ ] Navigation and Scene Generation Plugin - see [Nav and Scene Ideas](nav_and_scene_ideas.md)
-    - [ ] Class for navigable objects/regions
-    - [ ] Class for internal nav points
-    - [ ] Class for external nav joint points
-    - [ ] Plugin UI for managing these
-    - [ ] Gizmo for nav points to show what they're connected to
-    - [ ] Tool for composing navigable objects into larger navigable objects
+  - [x] ABANDONED - Navigation and Scene Generation Plugin - see [Nav and Scene Ideas](nav_and_scene_ideas.md)
   - [ ] Prototypes
     - [x] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
       - [x] Pick up object -- via MANIPULATE
@@ -104,7 +108,6 @@
       - [x] A basic window demo
     - [x] Ladder Prototype
       - [x] Make it possible to jump to attach to a ladder
-    - [ ] AI Pathfinding Prototype - see [Nav and Scene Ideas](nav_and_scene_ideas.md)
   - [ ] Character generator
     - Ethnicity
     - Name
