@@ -2,21 +2,21 @@
 
 - physical
   - locks
-    - bumping - LCK-UNS-CSH
-    - pick - LCK-SKL
-    - rake - LCK-UNS-CSH
-    - comb/overlifting - LCK-HNS-CSH
-    - shim - LCK-DIS-CSH
-    - american bypass tool - LCK-DIS-CSH
+    - bumping - LCK-UNS-CSH-OPN
+    - pick - LCK-SKL-OPN
+    - rake - LCK-UNS-CSH-OPN
+    - comb/overlifting - LCK-HNS-CSH-OPN
+    - shim - LCK-DIS-CSH-OPN
+    - american bypass tool - LCK-DIS-CSH-OPN
     - magnets
     - spinning magnet
     - 175 bypass
     - "master" pick
-    - momentum/impact - LCK-DIS-CSH
-    - destruction - LCK-DST-CSH
+    - momentum/impact - LCK-DIS-CSH-REM
+    - destruction - LCK-DST-CSH-REM
     - impressioning - LCK-CPY-CSH
     - decoding - LCK-CPY-CSH
-    - pick guns/snapping - LCK-UNS-CSH
+    - pick guns/snapping - LCK-UNS-CSH-OPN
   - keys
     - steal - KEY-STL-PLN
       - in home or office
@@ -28,11 +28,11 @@
         - mold - KEY-CPY-PSH
       - bitting codes (direct and indirect) - KEY-CPY-INF
   - doors/gates
-    - latch slipping - MNT-DIS-PSH
-    - under/through door tools - INT-SKL-CSH
-    - pop hinge pins - MNT-REM-CSH
-    - kick it in - MNT-DST-CSH
-    - remove hinges - MNT-REM-CSH
+    - latch slipping - MNT-DIS-PSH-OPN
+    - under/through door tools - INT-SKL-CSH-OPN
+    - pop hinge pins - MNT-REM-CSH-REM
+    - kick it in - MNT-DST-CSH-REM
+    - remove hinges - MNT-REM-CSH-REM
   - electrical strikes/latches/magnets
   - walls - destroy
   - fences - destroy, climb
@@ -42,12 +42,12 @@
     - cut glass - MNT-DST-CSH
 - electronic
   - keypads
-    - look for wear - LCK-CPY-LOS/REC
-    - look for heat - LCK-CPY-LOS/REC
-    - open up and bypass by the power to the latch if its controlled on the near side - LCK-DIS-CLN
+    - look for wear - LCK-CPY-LOS/REC-OPN
+    - look for heat - LCK-CPY-LOS/REC-OPN
+    - open up and bypass by the power to the latch if its controlled on the near side - LCK-DIS-CLN-OPN
     - open up and record data with a hidden tool - LCK-CPY-CLN
   - rfid
-    - open up and bypass by the power to the latch if its controlled on the near side - LCK-DIS-CLN
+    - open up and bypass by the power to the latch if its controlled on the near side - LCK-DIS-CLN-OPN
     - open up and record data with a hidden tool - LCK-CPY-CLN
     - steal rfid key - KEY-STL-PLN
       - in home or office
@@ -59,7 +59,7 @@
   - motion/heat sensors - disable
   - sound sensors - disable
   - vibration sensors - disable
-  - exit sensors - trick them - INT-UNS-NER
+  - exit sensors - trick them - INT-UNS-NER-OPN
 
 # dimensionalized analysis
 
@@ -94,6 +94,11 @@
   - LOS line of sight
   - REC image, sound
   - INF mere information / knowledge
+
+- what signals are there that the attack was successful?
+  - OPN door opens, knobs/handles turn
+  - IND indicator lights go green, indicator sound is played
+  - REM mechanism is removed, falls away, etc.
 
 
 # things to keep in mind

@@ -275,61 +275,7 @@ The Net also has normal UI-oriented hacking, with unconventional but plausible U
 
 ## Covert entry
 
-- physical
-  - locks
-    - bumping - LCK-UNS-CSH
-    - pick - LCK-SKL
-    - rake - LCK-UNS-CSH
-    - comb/overlifting - LCK-HNS-CSH
-    - shim - LCK-DIS-CSH
-    - momentum/impact - LCK-DIS-CSH
-    - destruction - LCK-DST-CSH
-    - impressioning - LCK-CPY-CSH
-    - decoding - LCK-CPY-CSH
-    - pick guns/snapping - LCK-UNS-CSH
-  - keys
-    - steal - KEY-STL-PLN
-      - in home or office
-      - in lock boxes etc
-    - duplication
-      - photo - KEY-CPY-REC
-      - temporary in hand
-        - measure - KEY-CPY-PLN
-        - mold - KEY-CPY-PSH
-      - bitting codes (direct and indirect) - KEY-CPY-INF
-  - doors/gates
-    - latch slipping - MNT-DIS-PSH
-    - under/through door tools - INT-SKL-CSH
-    - pop hinge pins - MNT-REM-CSH
-    - kick it in - MNT-DST-CSH
-    - remove hinges - MNT-REM-CSH
-  - electrical strikes/latches/magnets
-  - floor-to-ceiling walls - destroy, climb
-  - fences and separator walls - destroy, climb
-  - windows
-    - open
-    - break them - MNT-DST-CSH
-    - cut glass - MNT-DST-CSH
-- electronic
-  - keypads
-    - look for wear - LCK-CPY-LOS/REC
-    - look for heat - LCK-CPY-LOS/REC
-    - open up and bypass by the power to the latch if its controlled on the near side - LCK-DIS-CLN
-    - open up and record data with a hidden tool - LCK-CPY-CLN
-  - rfid
-    - open up and bypass by the power to the latch if its controlled on the near side - LCK-DIS-CLN
-    - open up and record data with a hidden tool - LCK-CPY-CLN
-    - steal rfid key - KEY-STL-PLN
-      - in home or office
-      - in lock boxes etc
-    - clone rfid key (short and far range, no crypto only) - KEY-CPY-CSH/NER
-    - replay attacks
-  - alarms - disable
-  - cameras - disable
-  - motion/heat sensors - disable
-  - sound sensors - disable
-  - vibration sensors - disable
-  - exit sensors - trick them - INT-UNS-NER
+See `covert_entry_techniques.md`
 
 ## Social engineering
 
