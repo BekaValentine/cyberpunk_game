@@ -1,0 +1,1 @@
+Design by having a goal in mind for the player, and then working backwords to figure out what obstacles make sense.
