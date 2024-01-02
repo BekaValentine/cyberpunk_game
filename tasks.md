@@ -65,17 +65,8 @@
   - [ ] Main Menu v0
     - [ ] Prototypes
       - [x] Interactions
-      - [ ] Locks and Doors
-        - [x] Basic Locks and Doors Test
-        - [ ] Tool Acquisition/Pickup
-        - [ ] Door Opening Techniques
-        - [ ] Lock Removal Techniques
-        - [ ] Lock Copying Techniques
-        - [ ] Door Destruction
-        - [ ] Door Hinge Techniques
-        - [ ] RFID use
-        - [ ] RFID bypass
-        - [ ] Sensors
+      - [X] Locks and Doors
+
   - [ ] UI
     - [ ] Menus
     - [ ] Backpack - non-diagetic UI
@@ -100,12 +91,22 @@
       - [x] Run
       - [x] Crouch
       - [x] Stairs
-    - [x] Locks and Doors Prototype
+    - [x] basic Locks and Doors Prototype
       - [x] Class for interactable or holdable or stashable objects
       - [x] One lock type
       - [x] Two key types
       - [x] A basic door demo
       - [x] A basic window demo
+      - [x] Basic Locks and Doors Test
+      - [ ] Tool Acquisition/Pickup?
+      - [ ] Lock/Door Opening Techniques
+      - [ ] Lock Removal Techniques
+      - [ ] Lock Copying Techniques
+      - [ ] Door Destruction
+      - [ ] Door Hinge Techniques
+      - [ ] RFID use
+      - [ ] RFID bypass
+      - [ ] Sensors
     - [x] Ladder Prototype
       - [x] Make it possible to jump to attach to a ladder
   - [ ] Character generator
