@@ -1,5 +1,7 @@
 # kinds of techniques
 
+major overlapping categories: direct opening of a lock or door, indirect by information acquisition + creation of key
+
 - physical
   - locks
     - bumping - LCK-UNS-CSH-OPN
@@ -115,25 +117,25 @@ Actually modelling these systems could be done in a multi-dimensional way, with 
 
 - Lock Type (must match in order to work)
 - Attack Type (must match in order to work)
-- Attack Success Base Probability
-- Lock Difficult/Success Probability
+- Attack Success Base Time Scaling Factor
+- Lock Difficult/Success Max Time
 - Auditory and visual actions
 
-Lock types and attack types should form some kind of hierarchy. For instance, you might have locks divided into a hierarchy like so:
+Lock types and attack types form a tag set, e.g.
 
 - Lock
-  - Pin Tumbler
-    - Schlage
-      - Schlage Bitting Code 12345
-    - American
-  - Combination
-    - Master 175
-    - Dial
+- Pin Tumbler
+- Schlage
+- Schlage Bitting Code 12345
+- American
+- Combination
+- Master 175
+- Dial
 
 A destruction attack would be lock type Lock, and is therefore applicable to all locks. A key with bitting code 12345 will only work for locks pinned the same way. A snapper will be lock type Pin Tumbler and thus work for any lock with pins. Meanwhile a Master 175 attack will only work for Master 175 locks but an impact attack might work for all Combination locks.
 
-So the Lock Type must be a sub-type of the Attack Type in order for the attack to work.
+So the Attack Type must be in the set of Lock Types for the lock it's used on in order for the attack to work.
 
-This doesn't have to be a tree, either. The locks themselves could have multiple supertypes.
+Time required to open a lock should be a combination of lock max time, player skill, and attack strength:
 
-Probability of opening the lock should depend on a combination of lock difficulty, the base success probability of the attack, and the player's skill level. Some attacks are extremely high probability of success, e.g. snappers, while other attacks are low probability, e.g. picking, but player skill can increase those significantly. A skilled picker can open a hard lock quickly while an unskilled snapper might take a little bit of time.
+Time To Unlock = Max Time * (1 - Attack Strength) * (1 - Player Skill)

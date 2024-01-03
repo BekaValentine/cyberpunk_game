@@ -91,21 +91,23 @@
       - [x] Run
       - [x] Crouch
       - [x] Stairs
-    - [x] basic Locks and Doors Prototype
+    - [x] Basic Locks and Doors Prototype
       - [x] Class for interactable or holdable or stashable objects
       - [x] One lock type
       - [x] Two key types
       - [x] A basic door demo
       - [x] A basic window demo
       - [x] Basic Locks and Doors Test
-      - [ ] Tool Acquisition/Pickup?
-      - [ ] Lock/Door Opening Techniques
-      - [ ] Lock Removal Techniques
+      - [x] Tool Acquisition/Pickup?
+      - [x] Lock/Door Opening Techniques
+      - [x] Lock Destruction Techniques
       - [ ] Lock Copying Techniques
       - [ ] Door Destruction
       - [ ] Door Hinge Techniques
       - [ ] RFID use
       - [ ] RFID bypass
+      - [ ] Electronic Code lock use
+      - [ ] Electronic Code lock bypass
       - [ ] Sensors
     - [x] Ladder Prototype
       - [x] Make it possible to jump to attach to a ladder
