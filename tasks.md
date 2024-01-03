@@ -101,10 +101,11 @@
       - [x] Tool Acquisition/Pickup?
       - [x] Lock/Door Opening Techniques
       - [x] Lock Destruction Techniques
+      - [x] RFID use
+    - [ ] Advanced Locks and Doors Prototype
       - [ ] Lock Copying Techniques
       - [ ] Door Destruction
       - [ ] Door Hinge Techniques
-      - [ ] RFID use
       - [ ] RFID bypass
       - [ ] Electronic Code lock use
       - [ ] Electronic Code lock bypass
