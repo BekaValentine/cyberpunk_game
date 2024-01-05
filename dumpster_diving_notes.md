@@ -11,3 +11,4 @@ Things you can find in a dumpster:
   - Monitors (maybe with sticky notes on them)
   - External media/disks (maybe in computers or in containers/cases)
   - USB drives
+  - Cables or Wireless Connectors?

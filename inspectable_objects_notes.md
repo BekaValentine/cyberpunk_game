@@ -1,6 +1,10 @@
 # Inspectable Objects Notes
 
-Some objects should be inspectable.
+Some objects should be inspectable. Ideally this wouldn't require a special screen?
+
+Perhaps the right way to do this is to move into a mode where the inspected object is focused and large, and then interactions with it are just clicks, possibly with a tool in hand.
+
+Idea: Inspecting things normally is by looking at it, which generally will be an upright activity aimed at things away from the player character. Inspecting something in the player character's hand will involve looking very far down, which brings any held tool into focus as the inspectable object.
 
 ## Plausible Inspectables
 
@@ -17,6 +21,9 @@ Some objects should be inspectable.
 - Devices?
   - inspection means to look at various angles
   - could yield info about serial number, model, ports, etc.
+- Interfaces?
+  - inspection means to look at it close up
+  - tools could be pressing buttons and removing screws and plugging things in and removing things?
 
 ## Deus Ex Examples
 
