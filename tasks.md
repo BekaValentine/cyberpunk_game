@@ -256,6 +256,14 @@ Fraudulent or buggy high tech shit that fuck people over (predictive policing AI
 
 CORP NOTE: If you stay corporate, then you don't just remain as a pentester/etc. Your loyalty and skill lets the company trust you more so you're increasingly brought into higher value jobs that involve providing discrete "solutions" for high paying clients involving recovery of their secrets, stealing things for them, etc. Classic cyberpunk corporate espionage type stuff.
 
+### First Mission Notes
+
+The first mission should start very close to some real gameplay. It should be some pentesting engagement and it should lead to some troubling conclusions if played curiously. Probably it should be a special mission on behalf of a corporation that's looking to get information on some anti-corporate rebels or something like that, and in the process of doing the infiltration you have the opportunity to maybe interact with rebels or overhear them, or look at their computer systems. You should also be able to be caught by the rebels, which gives you an opportunity to escape their clutches. Getting caught leads to the mission partially failing if you can't escape and they end up releasing you, but being captured does give you a chance to build rapport.
+
+What you learn in the first mission should make it possible, tho not necessary, to investigate the company more in the next mission to see if there's truth to the information. The truth should be vindicating of the rebels.
+
+Possibly the next mission is a more standard pentesting, perhaps of the company itself as part of a longer term business relationship with them, thus giving you lots of opportunity. You should also be able to contact the rebels with information that you find, and there should be interactions etc based on the previous encounter with them. Perhaps they trust you more or trust you less, depending on if they captured you, if you talked to them, etc.
+
 ## Task Rambles
 
 - wet printing medicines to heal yourself
