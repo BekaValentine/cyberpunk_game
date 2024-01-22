@@ -102,6 +102,11 @@
       - [x] Lock/Door Opening Techniques
       - [x] Lock Destruction Techniques
       - [x] RFID use
+    - [x] Object Focusing and Inspection
+      - [x] Core inspection system
+      - [x] Cubic Focus Object
+      - [x] Flat Focus Object
+      - [x] Book Focus Object
     - [ ] Advanced Locks and Doors Prototype
       - [ ] Lock Copying Techniques
       - [ ] Door Destruction
