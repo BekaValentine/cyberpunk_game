@@ -107,6 +107,7 @@
       - [x] Cubic Focus Object
       - [x] Flat Focus Object
       - [x] Book Focus Object
+    - [ ] Attaching objects to other objects
     - [ ] Advanced Locks and Doors Prototype
       - [ ] Lock Copying Techniques
       - [ ] Door Destruction
