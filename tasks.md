@@ -179,7 +179,9 @@ Figure out a way to make sure that you can never fail and have to restart, only 
 
 Desert arcology? maybe NEOM?
 
-SF Mission involving Hunters Point radiation, maybe?
+SF Mission involving Hunters Point radiation, maybe? Could be rich techniques living in new construciton in Hunters Point getting sick from radiation? Alternatively, could use Hunter's Point for conspiratorial stuff, since its got lots of great buildings.
+
+Moffet Field mission to penetrate secret government-corporate labs relating to conspiracies. Motivated perhaps by mysterious fleets of helicopters flying back and forth between Moffet and somewhere in SF or maybe further north, or maybe out in the Pacific?
 
 Crumbling US infrastructure leading to disasters that get covered up, etc. creating badlands., emergence of walkaway-like communities.
 
