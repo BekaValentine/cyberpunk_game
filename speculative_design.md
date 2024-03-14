@@ -174,3 +174,5 @@ What should we speculate about in this game?
 72. Edible computer chips in pills that can alter body chemistry
 73. AI surveillance that automatically reports protestors https://ipvm.com/reports/dahua-protestor-alarms?code=lfgsdfasd
 74. Neural implant collection https://twitter.com/evacide/status/1667715567023947776
+75. AI being sold as a panacea for something important (eg healthcare) but secretly is useless and the people selling it know
+76. AI being used to "design" things but it produces designs that work for reasons no one understands, and eventually the designs start to not work as expected but no one knows how to fix it or debug it
