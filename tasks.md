@@ -104,12 +104,10 @@
       - [x] RFID use
     - [x] Object Focusing and Inspection
       - [x] Core inspection system
-      - [x] Cubic Focus Object
       - [x] Flat Focus Object
       - [x] Book Focus Object
-    - [ ] Attaching objects to other objects
     - [ ] Advanced Locks and Doors Prototype
-      - [ ] Lock Copying Techniques
+      - [ ] Key Copying Techniques
       - [ ] Door Destruction
       - [ ] Door Hinge Techniques
       - [ ] RFID bypass
