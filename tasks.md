@@ -108,10 +108,17 @@
       - [x] Book Focus Object
     - [ ] Advanced Locks and Doors Prototype
       - [ ] Key Copying Techniques
+        - [x] Interactions in focus mode - already doable w/ sim objects
+        - [ ] Photographic copying
+          - Requires photo and measurement tool/app
+        - [ ] Physical copying
+          - Requires key and measurement tool
       - [ ] Door Destruction
       - [ ] Door Hinge Techniques
+        - Special tool? Maybe also requires doors to know about hinges?
       - [ ] RFID bypass
       - [ ] Electronic Code lock use
+        - [x] Interactions in focus mode - already doable w/ sim objects
       - [ ] Electronic Code lock bypass
       - [ ] Sensors
     - [x] Ladder Prototype
