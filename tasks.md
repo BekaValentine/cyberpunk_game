@@ -107,12 +107,10 @@
       - [x] Flat Focus Object
       - [x] Book Focus Object
     - [ ] Advanced Locks and Doors Prototype
-      - [ ] Key Copying Techniques
+      - [x] Key Copying Techniques
         - [x] Interactions in focus mode - already doable w/ sim objects
-        - [ ] Photographic copying
-          - Requires photo and measurement tool/app
-        - [ ] Physical copying
-          - Requires key and measurement tool
+        - [x] Manual copying
+          - Requires key or photo and measurement tool
       - [ ] Door Destruction
       - [ ] Door Hinge Techniques
         - Special tool? Maybe also requires doors to know about hinges?
