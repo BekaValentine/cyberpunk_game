@@ -114,10 +114,10 @@
       - [ ] Door Destruction
       - [ ] Door Hinge Techniques
         - Special tool? Maybe also requires doors to know about hinges?
-      - [ ] RFID bypass
       - [ ] Electronic Code lock use
         - [x] Interactions in focus mode - already doable w/ sim objects
-      - [ ] Electronic Code lock bypass
+      - [ ] RFID + Electronic Code lock bypass
+        - Bypass of controllers is just opening, inspecting, and triggering latch relays, which means its already doable w/ sim objects
       - [ ] Sensors
     - [x] Ladder Prototype
       - [x] Make it possible to jump to attach to a ladder
