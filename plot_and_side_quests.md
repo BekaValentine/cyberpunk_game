@@ -68,6 +68,12 @@ The main plot is about the character progressing through their arc from a Hack N
 - PC decides to get revenge and eventually joins an underground movement
 - PC engages in progressively bigger missions to expose corporate evil, and defend the oppressed, culminating first in an opportunity to go against the original company that killed their loved one, and then to destroy the entire regime of DRM control over computers and augments and 3d printers. TODO flesh this out
 
+The first of three parts culminates with the player stumbling across some evidence of a bigger corporate conspiracy that involves like DRM backdoors and AI spyware. The Conspiracy is investigated and fleshed out in the second part of the game, and its scale and goals are discovered at the end of that part: spy on every computer and phone in the world in order to gather compromising material, financial secrets, plant incriminating data, etc. allowing the Conspiracists to influence and manipulate economies and governments. The third part of the game is about the race to stop The Conspiracy.
+
+Hints at the conspiracy along the way can be things like destabilization of foreign or smaller economies, foreign governments collapsing from data leaks, big corporate data/tech thefts (that the player can be involved in), etc. Bigger anomalous events should come later in the story to hint at the test runs getting bigger and bigger.
+
+Perhaps we discover the existence of the backdoor (but not the details of it yet) by doing two or three jobs over the course of Act 1 that reveal a mysterious, inexplicable backdoor on some computer, and then we culminate with a trace of the backdoor to a hacker's secret lair and fine evidence that the backdoor is in hundreds or thousands of computers, and he's being paid to do it by some big mysterious outside party. To keep him quiet, they have him assassinated.
+
 NOTE: EVERYTHING ABOVE IS IN FLUX MOSTLY. I like the idea of the pentesting job, the sick loved one, etc. but I'm not sure how to fit that into the broader motivation. I don't know what can motivate the PC to do things in all branches. Namely:
 
   Suppose the PC stays with the corporation and doesn't manage to save their loved one. What then motivates anything that's happening?
