@@ -76,7 +76,7 @@
       - [ ] Messages
       - [ ] Hacking app???
   - [x] ABANDONED - Navigation and Scene Generation Plugin - see [Nav and Scene Ideas](nav_and_scene_ideas.md)
-  - [ ] Prototypes
+  - [x] Prototypes
     - [x] First Person Interactions - NOTE: interactions should preferably involve physics so that its not just the player that can trigger them but objects and NPCs too
       - [x] Pick up object -- via MANIPULATE
         - [x] Drop object
@@ -106,19 +106,22 @@
       - [x] Core inspection system
       - [x] Flat Focus Object
       - [x] Book Focus Object
-    - [ ] Advanced Locks and Doors Prototype
+    - [x] Advanced Locks and Doors Prototype
       - [x] Key Copying Techniques
         - [x] Interactions in focus mode - already doable w/ sim objects
         - [x] Manual copying
           - Requires key or photo and measurement tool
-      - [ ] Door Destruction
-      - [ ] Door Hinge Techniques
+      - [x] Door Destruction
+        - Should not involve destroying the door itself but rather changing its mesh and colliders and interaction possibilities
+      - [x] Door Hinge Techniques
         - Special tool? Maybe also requires doors to know about hinges?
-      - [ ] Electronic Code lock use
+      - [x] Electronic Code lock use
         - [x] Interactions in focus mode - already doable w/ sim objects
-      - [ ] RFID + Electronic Code lock bypass
+      - [x] RFID + Electronic Code lock bypass
         - Bypass of controllers is just opening, inspecting, and triggering latch relays, which means its already doable w/ sim objects
-      - [ ] Sensors
+      - [x] Sensors
+        - Object of appropriate type (object with atypical temperature) enters view region should trigger opening
+      - [x] Signal transmission and detection
     - [x] Ladder Prototype
       - [x] Make it possible to jump to attach to a ladder
   - [ ] Character generator
