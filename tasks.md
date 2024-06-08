@@ -121,9 +121,10 @@
         - Bypass of controllers is just opening, inspecting, and triggering latch relays, which means its already doable w/ sim objects
       - [x] Sensors
         - Object of appropriate type (object with atypical temperature) enters view region should trigger opening
-      - [x] Signal transmission and detection
+    - [x] Signal transmission and detection
     - [x] Ladder Prototype
       - [x] Make it possible to jump to attach to a ladder
+  - [ ] Actual Models
   - [ ] Character generator
     - Ethnicity
     - Name

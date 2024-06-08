@@ -36,10 +36,11 @@ There is some logic to some of this. Namely, we can determine what objects need 
       - [ ] Janitors closets
 - [ ] Objects
   - [ ] Building Infrastructure
-    - [ ] Doors (Hinged vs. Sliding; Single vs. Double; Windows vs. None; different materials)
+    - [ ] Doors (Hinged vs. Sliding; Single vs. Double; Windows vs. None; different materials) + Hinges where necessary
       - [ ] Sub-types needed
     - [ ] Windows (Hinged vs. Sliding)
       - [ ] Sub-types needed
+    - [ ] Cold Gas Can / Fire Extinguisher?
   - [ ] Furniture (ish)
     - [ ] Seating
       - [ ] Sofa/Couch
@@ -86,8 +87,9 @@ There is some logic to some of this. Namely, we can determine what objects need 
     - [ ] Sinks
     - [ ] Food packaging
   - [ ] Devices
-    - [ ] Desktop Computer
-    - [ ] Laptops
+    - [ ] Desktop Computer??
+    - [ ] Laptops??
+    - [ ] VR Sets
     - [ ] Server Racks
     - [ ] Network Switches
     - [ ] TVs
@@ -97,6 +99,7 @@ There is some logic to some of this. Namely, we can determine what objects need 
     - [ ] Cellphones
     - [ ] Tablets
     - [ ] Projectors
+    - [ ] Wired and Wireless Routers
     - [ ] Tools
       - [ ] 3d printers
       - [ ] Laser cutters
@@ -106,10 +109,19 @@ There is some logic to some of this. Namely, we can determine what objects need 
     - [ ] Cash registers / Stripe terminals
   - [ ] Security
     - [ ] Keys and Locks
-    - [ ] RFIDs and readers
+    - [ ] RFIDs
+    - [ ] RFID readers
+    - [ ] Keypads
+    - [ ] Electronic Lock Controllers
+    - [ ] REX Sensors
+    - [ ] Security Cameras
     - [ ] Various Tools
-      - [ ] Patch cables
-      - [ ] Sniffers 
+      - [ ] Lock Picking/Bypass Tools
+      - [ ] Lock Measurement Tool
+      - [ ] Patch cables / Ethernet Console Cable Hacks??
+      - [ ] Ethernet Wiretaps w/ wireless transmission
+      - [ ] Wifi Signal Detectors + Power Meters
+    - [ ] Security Robots
   - [ ] Misc.
     - [ ] Storage boxes, crates, etc.
     - [ ] Barrels
@@ -117,3 +129,4 @@ There is some logic to some of this. Namely, we can determine what objects need 
     - [ ] Mops and buckets
     - [ ] Trash (smalls scale in bins, large scale in dumpsters)
     - [ ] Wallets and Purses
+    - [ ] Ladders
