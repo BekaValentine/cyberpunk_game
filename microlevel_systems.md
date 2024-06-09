@@ -150,7 +150,7 @@ This presents a few possibilities for portraying hacking: because its computery,
 
 ### DESIGN PROPOSAL
 
-Here's one option for the design of the hacking sub-system: use a very spatial metaphor for the network structure. Accessing another computer system directly is being in a space, and moving from one computer to another over the network is a spatial relocation through visuo-spatial "portals" or whatever. They can be stylized to indicate the computer they correspond to. They ought to look special tho, different from mere spatial doorways.
+Here's one option for the design of the hacking sub-system: use a very spatial metaphor for the network structure -- corporate networks use simulated virtual environments as their dominant interface instead of normal computer interfaces. Accessing another computer system directly is being in a space, and moving from one computer to another over the network is a spatial relocation through visuo-spatial "portals" or whatever. They can be stylized to indicate the computer they correspond to. They ought to look special tho, different from mere spatial doorways.
 
 Communicating with a computer through multiple hops is a series of open portals from your computer through the bridge computers to the final computer you're using, and that's visually present somehow. That should partially involve spatial representations, eg seeing through portals, coloring them by "forward" and "backward", but also by some kind of visual map on the screen maybe.
 

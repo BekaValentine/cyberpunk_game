@@ -40,7 +40,6 @@ There is some logic to some of this. Namely, we can determine what objects need 
       - [ ] Sub-types needed
     - [ ] Windows (Hinged vs. Sliding)
       - [ ] Sub-types needed
-    - [ ] Cold Gas Can / Fire Extinguisher?
   - [ ] Furniture (ish)
     - [ ] Seating
       - [ ] Sofa/Couch
@@ -87,8 +86,8 @@ There is some logic to some of this. Namely, we can determine what objects need 
     - [ ] Sinks
     - [ ] Food packaging
   - [ ] Devices
-    - [ ] Desktop Computer??
-    - [ ] Laptops??
+    - [ ] Desktop Computer
+    - [ ] Laptops
     - [ ] VR Sets
     - [ ] Server Racks
     - [ ] Network Switches
@@ -130,3 +129,4 @@ There is some logic to some of this. Namely, we can determine what objects need 
     - [ ] Trash (smalls scale in bins, large scale in dumpsters)
     - [ ] Wallets and Purses
     - [ ] Ladders
+    - [ ] Cold Gas Can / Fire Extinguisher?
